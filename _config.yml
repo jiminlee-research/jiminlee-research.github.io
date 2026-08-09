@@ -24,11 +24,11 @@ repository               : "jiminlee-research.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Jimin Lee"
+  name             : "Jimin Lee, M.A."
   pronouns         : # example: "she/her"  
-  bio              : "Researcher at the Institute of Health and Environment. My research focuses on mental health, Behavioral and health outcomes, and social policy"
-  location         : # Replace
-  employer         : "Seoul National University"
+  bio              : "Staff Researcher"
+  employer         : "Institute of Health and Environment"
+  location         : "Seoul National University"
   uri              : # URL
   email            : "jiminlee28@snu.ac.kr" 
 
