@@ -7,26 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-<div id="about-me"></div>
+I am a researcher at the Institute of Health and Environment, Seoul National University. My research focuses on mental health, health behaviors and outcomes, and social policy.
 
-## About Me
+My research examines how social experiences such as discrimination, stigma, and trauma contribute to mental health inequities and adverse behavioral health outcomes, particularly suicide, substance use, and social isolation. My work has focused particularly on these processes during adolescence and young adulthood and among populations disproportionately exposed to stigma and trauma, including refugees, sexual and gender minorities (SGM), people with disabilities, and suicide-loss survivors. I aim to develop and evaluate anti-oppressive, rights-based interventions and policies that address the social and structural conditions underlying health inequities.
 
-Staff Researcher, Institute of Health and Environment, Seoul National University 
+## Recent News
 
-<div id="news"></div>
+- **August 2026** — News will be added here.
 
-## News
+## Selected Publications
 
-Updates will be posted here.
-
-<div id="cv"></div>
-
-## CV
-
-[Download CV (PDF)](/files/Jimin_Lee_CV.pdf){: .btn .btn--primary}
-
-<div id="research"></div>
-
-## Research
-
-My research examines mental health and health outcomes among socially vulnerable populations, with particular attention to disability, aging, and social policy.
+Selected publications will be added here.
