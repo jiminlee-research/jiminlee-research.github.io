@@ -11,7 +11,7 @@ redirect_from:
 
 ## About Me
 
-I am a researcher at the Institute of Health and Environment, Seoul National University. My research focuses on mental health, health behaviors and outcomes, and social policy.
+Staff Researcher, Institute of Health and Environment, Seoul National University 
 
 <div id="news"></div>
 
