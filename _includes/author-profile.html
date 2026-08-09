@@ -17,21 +17,23 @@
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if author.bio %}<p class="author__bio" style="margin-bottom: 0;">{{ author.bio }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
               <!-- Font Awesome icons / Biographic information  -->
-           {% if author.employer %}
-        <li>{{ author.employer }}</li>
+              {% if author.employer %}
+        <li style="display: block; margin: 0; line-height: 1.6;">{{ author.employer }}</li>
       {% endif %}
       {% if author.location %}
-        <li>{{ author.location }}</li>
+        <li style="display: block; margin: 0 0 0.5rem; line-height: 1.6;">{{ author.location }}</li>
       {% endif %}
       {% if author.email %}
-        <li><strong>Email:</strong> <a href="mailto:{{ author.email }}">{{ author.email }}</a></li>
+        <li style="display: block; margin: 0.5rem 0 0; line-height: 1.6;">
+          <strong>Email:</strong> <a href="mailto:{{ author.email }}">{{ author.email }}</a>
+        </li>
       {% endif %}
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
