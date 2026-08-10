@@ -104,6 +104,33 @@
   border-top: 1px solid #e5e7eb;
   border-bottom: 1px solid #e5e7eb;
   line-height: 1.6;
-  text-align: center;
-  white-space: normal !important;
+  text-align: left;
+  white-space: nowrap !important;
+}
+}
+
+
+/* Keep the author sidebar fixed and independently scrollable */
+@media (min-width: 64em) {
+  .sidebar {
+    position: fixed;
+    top: 4rem;
+    bottom: 1rem;
+    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+}
+
+
+/* Slightly wider author profile on desktop */
+@media (min-width: 64em) {
+  .sidebar {
+    width: 200px;
+  }
+
+  .page,
+  .archive {
+    width: calc(100% - 200px);
+  }
 }
