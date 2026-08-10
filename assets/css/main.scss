@@ -37,3 +37,7 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+
+/* Site-wide page titles */
+.page__title, .archive__subtitle { color: #1683e8; }
+.about-page .about-hero { text-align: left; padding: 0 0 1.5rem; margin-bottom: 2rem; }
