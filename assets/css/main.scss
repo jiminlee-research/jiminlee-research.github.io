@@ -34,8 +34,9 @@
 
     "layout/page",
     "layout/archive",
-"layout/sidebar",
-"layout/json_cv";
+    "layout/sidebar",
+    "layout/json_cv";
+
 .page__title,
 .archive__subtitle {
   color: #1683e8;
@@ -48,10 +49,12 @@
   padding: 0 0 1.25rem;
   margin-bottom: 1.5rem;
 }
+
 .about-page .about-hero h1 {
   font-size: 2em;
   margin-bottom: .35rem;
 }
+
 .about-page .about-section h2 {
   color: #303236;
   font-size: 1.25em;
@@ -59,7 +62,6 @@
   padding-bottom: 0;
   margin-bottom: .85rem;
 }
-
 
 /* Author profile */
 .author__avatar,
@@ -108,7 +110,3 @@
   text-align: left;
   white-space: nowrap !important;
 }
-
-
-
-
