@@ -40,70 +40,31 @@ author_profile: true
   <section class="about-section">
     <h2>Key Interests</h2>
     <div class="interest-grid">
-      <article class="interest-card">
-        <div class="label">MENTAL HEALTH EQUITY</div>
-        <h3>Mental Health Disparities</h3>
-        <p>Stigma, discrimination, trauma, and unequal health outcomes.</p>
-      </article>
-      <article class="interest-card">
-        <div class="label">POPULATIONS</div>
-        <h3>Marginalized Populations</h3>
-        <p>Refugees, sexual and gender minorities, and people with disabilities.</p>
-      </article>
-      <article class="interest-card">
-        <div class="label">APPROACH</div>
-        <h3>Rights-Based Policy</h3>
-        <p>Anti-oppressive research and policy responses to health inequities.</p>
-      </article>
+      <article class="interest-card"><div class="label">MENTAL HEALTH EQUITY</div><h3>Mental Health Disparities</h3><p>Stigma, discrimination, trauma, and unequal health outcomes.</p></article>
+      <article class="interest-card"><div class="label">POPULATIONS</div><h3>Marginalized Populations</h3><p>Refugees, sexual and gender minorities, and people with disabilities.</p></article>
+      <article class="interest-card"><div class="label">APPROACH</div><h3>Rights-Based Policy</h3><p>Anti-oppressive research and policy responses to health inequities.</p></article>
     </div>
   </section>
 
   <section class="about-section">
-    <h2>Selected Research Experience</h2>
+    <h2>Research and Practice Experience</h2>
     <div class="record-grid">
-      <article class="record-card">
-        <div class="label">PUBLISHED · FIRST AUTHOR</div>
-        <h3>Family Conflict and Social Isolation Among Young Adults</h3>
-        <p><strong>Role:</strong> Designed and managed the quantitative study, conducted mediation analysis, and led manuscript preparation.</p>
-      </article>
-      <article class="record-card">
-        <div class="label">PUBLISHED · CO-RESEARCHER</div>
-        <h3>Game-Based Digital Interventions for Adolescent Substance Use</h3>
-        <p><strong>Role:</strong> Conducted PRISMA-based screening and data extraction, synthesizing findings from 26 studies.</p>
-      </article>
-      <article class="record-card">
-        <div class="label">PUBLISHED · CO-RESEARCHER</div>
-        <h3>Drug Use Attitudes Among South Korean Young Adults</h3>
-        <p><strong>Role:</strong> Supported latent class and multivariate logistic regression analyses; co-authored the theoretical background and discussion.</p>
-      </article>
-      <article class="record-card">
-        <div class="label">LONGITUDINAL EVALUATION</div>
-        <h3>Welfare Outcomes of Protected Children</h3>
-        <p><strong>Role:</strong> Collected, cleaned, and coded mixed-methods data in collaboration with ChildFund Korea and Kyobo Life.</p>
-      </article>
-      <article class="record-card">
-        <div class="label">ACADEMIC RESEARCH</div>
-        <h3>Substance Use Social Work and Policy Translation</h3>
-        <p><strong>Role:</strong> Developed research materials and presentations for academic and policy forums, including National Assembly briefings.</p>
-      </article>
+      <article class="record-card"><div class="label">CURRENT APPOINTMENT</div><h3>Health Equity Research</h3><p><strong>Role:</strong> Staff Researcher at the Institute of Health and Environment, Seoul National University.</p></article>
+      <article class="record-card"><div class="label">LONGITUDINAL EVALUATION</div><h3>Welfare Outcomes of Protected Children</h3><p><strong>Role:</strong> Collected, cleaned, and coded mixed-methods data with ChildFund Korea and Kyobo Life.</p></article>
+      <article class="record-card"><div class="label">PUBLISHED · FIRST AUTHOR</div><h3>Family Conflict and Social Isolation Among Young Adults</h3><p><strong>Role:</strong> Designed and managed the quantitative study, conducted mediation analysis, and led manuscript preparation.</p></article>
+      <article class="record-card"><div class="label">PUBLISHED · CO-RESEARCHER</div><h3>Game-Based Digital Interventions for Adolescent Substance Use</h3><p><strong>Role:</strong> Conducted PRISMA-based screening and data extraction, synthesizing findings from 26 studies.</p></article>
+      <article class="record-card"><div class="label">PUBLISHED · CO-RESEARCHER</div><h3>Drug Use Attitudes Among South Korean Young Adults</h3><p><strong>Role:</strong> Supported latent class and multivariate logistic regression analyses; co-authored the theoretical background and discussion.</p></article>
+      <article class="record-card"><div class="label">ACADEMIC RESEARCH</div><h3>Substance Use Social Work and Policy Translation</h3><p><strong>Role:</strong> Developed research materials and presentations for academic and policy forums, including National Assembly briefings.</p></article>
+      <article class="record-card"><div class="label">MENTAL HEALTH PRACTICE</div><h3>Suicide Bereavement Support and Service Coordination</h3><p><strong>Role:</strong> Provided grief counseling and support coordination for suicide-bereaved families at Dongjak-gu Public Mental Health Welfare Center.</p></article>
     </div>
   </section>
 
   <section class="about-section">
     <h2>Education</h2>
     <div class="record-grid">
-      <article class="record-card">
-        <h3>M.A. in Social Welfare</h3>
-        <p>Ewha Womans University<br>2023-2025</p>
-      </article>
-      <article class="record-card">
-        <h3>B.A. in Social Welfare</h3>
-        <p>Ewha Womans University<br>2020-2023</p>
-      </article>
-      <article class="record-card">
-        <h3>Visiting Student</h3>
-        <p>Philipps-Universität Marburg<br>2021-2022</p>
-      </article>
+      <article class="record-card"><h3>M.A. in Social Welfare</h3><p>Ewha Womans University<br>2023-2025</p></article>
+      <article class="record-card"><h3>B.A. in Social Welfare</h3><p>Ewha Womans University<br>2020-2023</p></article>
+      <article class="record-card"><h3>Visiting Student</h3><p>Philipps-Universität Marburg<br>2021-2022</p></article>
     </div>
   </section>
 </div>
