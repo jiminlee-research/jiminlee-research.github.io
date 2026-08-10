@@ -34,10 +34,22 @@
 
     "layout/page",
     "layout/archive",
-    "layout/sidebar",
-    "layout/json_cv"
-;
 
-/* Site-wide page titles */
-.page__title, .archive__subtitle { color: #1683e8; }
-.about-page .about-hero { text-align: left; padding: 0 0 1.5rem; margin-bottom: 2rem; }
+/* Align About Me with standard site pages */
+.about-page .about-hero {
+  border-bottom: 0;
+  text-align: left;
+  padding: 0 0 1.25rem;
+  margin-bottom: 1.5rem;
+}
+.about-page .about-hero h1 {
+  font-size: 2em;
+  margin-bottom: .35rem;
+}
+.about-page .about-section h2 {
+  color: #303236;
+  font-size: 1.25em;
+  border-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: .85rem;
+}
