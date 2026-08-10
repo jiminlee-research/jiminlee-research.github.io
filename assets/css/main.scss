@@ -111,23 +111,19 @@
 
 
 
-/* Let the author sidebar scroll with the page */
+/* Author sidebar: scroll with the page */
 @media (min-width: 64em) {
-  .sidebar {
-    position: static;
-    height: auto;
-    overflow: visible;
-  }
-}
-
-/* Slightly wider author profile on desktop */
-@media (min-width: 64em) {
-  .sidebar {
+  .sidebar.sticky {
+    position: static !important;
+    top: auto !important;
+    float: left !important;
     width: 200px;
+    height: auto !important;
+    overflow: visible !important;
   }
 
   .page,
   .archive {
-    width: calc(100% - 200px);
+    width: calc(100% - 225px);
   }
 }
