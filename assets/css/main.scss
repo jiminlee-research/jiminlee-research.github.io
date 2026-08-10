@@ -111,12 +111,17 @@
 
 
 
-/* Author sidebar: scroll with the page */
+/* Author sidebar: move with the page */
 @media (min-width: 64em) {
+  #main {
+    position: relative;
+  }
+
   .sidebar.sticky {
-    position: static !important;
-    top: auto !important;
-    float: left !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0;
+    float: none !important;
     width: 200px;
     height: auto !important;
     overflow: visible !important;
