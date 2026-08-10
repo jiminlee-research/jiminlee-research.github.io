@@ -66,14 +66,34 @@ author_profile: true
         <p>Institute of Health and Environment<br>Seoul National University</p>
       </article>
       <article class="record-card">
-        <div class="label">RESEARCH</div>
+        <div class="label">RESEARCH ASSISTANT</div>
+        <h3>Child Welfare Outcomes</h3>
+        <p>ChildFund Korea and Kyobo Life<br>Collected, cleaned, and coded mixed-methods data for a longitudinal evaluation of protected children's welfare outcomes.</p>
+      </article>
+      <article class="record-card">
+        <div class="label">FIRST AUTHOR · 2024</div>
+        <h3>Family Conflict and Social Isolation</h3>
+        <p>Designed and managed a quantitative study on coping strategies for family conflict and social isolation among young adults; conducted mediation analysis and led manuscript preparation.</p>
+      </article>
+      <article class="record-card">
+        <div class="label">CO-RESEARCHER · 2024</div>
+        <h3>Adolescent Substance Use Interventions</h3>
+        <p>Conducted PRISMA-based screening and data extraction for a systematic review of game-based digital interventions, synthesizing evidence from 26 studies.</p>
+      </article>
+      <article class="record-card">
+                <div class="label">CO-RESEARCHER · PUBLISHED</div>
+        <h3>Drug Use Attitudes Among Young Adults</h3>
+        <p>Supported latent class and multivariate logistic regression analyses and co-authored the study's theoretical background and discussion.</p>
+      </article>
+      <article class="record-card">
+        <div class="label">ACADEMIC RESEARCH</div>
         <h3>Research Assistant</h3>
-        <p>ChildFund Korea and Kyobo Life<br>Longitudinal evaluation of protected children's welfare outcomes, 2024–2025</p>
+        <p>Department of Social Welfare, Ewha Womans University<br>Developed research materials and presentations for academic and policy forums, including National Assembly briefings.</p>
       </article>
       <article class="record-card">
         <div class="label">PRACTICE</div>
         <h3>Social Worker</h3>
-        <p>Dongjak-gu Public Mental Health Welfare Center<br>Grief counseling and support coordination for suicide-bereaved families, 2025</p>
+        <p>Dongjak-gu Public Mental Health Welfare Center<br>Provided grief counseling and support coordination for suicide-bereaved families.</p>
       </article>
     </div>
   </section>
@@ -83,15 +103,15 @@ author_profile: true
     <div class="record-grid">
       <article class="record-card">
         <h3>M.A. in Social Welfare</h3>
-        <p>Ewha Womans University<br>2023–2025</p>
+        <p>Ewha Womans University<br>2023-2025</p>
       </article>
       <article class="record-card">
         <h3>B.A. in Social Welfare</h3>
-        <p>Ewha Womans University<br>2020–2023</p>
+        <p>Ewha Womans University<br>2020-2023</p>
       </article>
       <article class="record-card">
         <h3>Visiting Student</h3>
-        <p>Philipps-Universität Marburg<br>2021–2022</p>
+        <p>Philipps-Universität Marburg<br>2021-2022</p>
       </article>
     </div>
   </section>
