@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: ""
-permalink: /about/
+permalink: /about-me/
 author_profile: true
 ---
 
@@ -50,49 +50,3 @@ author_profile: true
         <p>Centering the experiences of refugees, sexual and gender minorities, and people with disabilities.</p>
       </article>
       <article class="interest-card">
-        <span class="label">APPROACH</span>
-        <h3>Rights-Based Policy and Practice</h3>
-        <p>Advancing anti-oppressive, rights-based research and policy responses to health inequities.</p>
-      </article>
-    </div>
-  </section>
-
-  <section class="about-section">
-    <h2>Research and Practice</h2>
-    <div class="record-grid">
-      <article class="record-card">
-        <span class="label">CURRENT</span>
-        <h3>Staff Researcher</h3>
-        <p>Institute of Health and Environment<br>Seoul National University</p>
-      </article>
-      <article class="record-card">
-        <span class="label">RESEARCH</span>
-        <h3>Research Assistant</h3>
-        <p>ChildFund Korea and Kyobo Life<br>Longitudinal evaluation of protected children's welfare outcomes, 2024-2025</p>
-      </article>
-      <article class="record-card">
-        <span class="label">PRACTICE</span>
-        <h3>Social Worker</h3>
-        <p>Dongjak-gu Public Mental Health Welfare Center<br>Grief counseling and support coordination for suicide-bereaved families, 2025</p>
-      </article>
-    </div>
-  </section>
-
-  <section class="about-section">
-    <h2>Education</h2>
-    <div class="record-grid">
-      <article class="record-card">
-        <h3>M.A. in Social Welfare</h3>
-        <p>Ewha Womans University<br>2023-2025</p>
-      </article>
-      <article class="record-card">
-        <h3>B.A. in Social Welfare</h3>
-        <p>Ewha Womans University<br>2020-2023</p>
-      </article>
-      <article class="record-card">
-        <h3>Visiting Student</h3>
-        <p>Philipps-Universität Marburg<br>2021-2022</p>
-      </article>
-    </div>
-  </section>
-</div>
