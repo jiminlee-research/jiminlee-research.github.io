@@ -72,6 +72,7 @@
   margin: .9rem 0 .8rem;
   font-size: 1.25em;
   line-height: 1.3;
+  white-space: nowrap;
 }
 
 .author__role {
@@ -107,7 +108,7 @@
   text-align: left;
   white-space: nowrap !important;
 }
-}
+
 
 
 /* Keep the author sidebar fixed and independently scrollable */
