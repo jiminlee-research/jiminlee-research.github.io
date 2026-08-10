@@ -14,11 +14,18 @@
     {% endif %}
   </div>
 
-  <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
-    {% if author.bio %}<p class="author__bio" style="margin-bottom: 0;">{{ author.bio }}</p>{% endif %}
-  </div>
+<div class="author__content author__content--centered">
+  <h3 class="author__name">{{ author.name }}</h3>
+
+  {% if author.pronouns %}
+    <p class="author__pronouns">{{ author.pronouns }}</p>
+  {% endif %}
+
+  {% if author.bio %}
+    <p class="author__role">{{ author.bio }}</p>
+  {% endif %}
+
+</div>
 
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">Follow</button>
@@ -31,7 +38,7 @@
         <li style="display: block; margin: 0 0 0.5rem; line-height: 1.6;">{{ author.location }}</li>
       {% endif %}
       {% if author.email %}
-        <li style="display: block; margin: 0.5rem 0 0; line-height: 1.6;">
+        <li class="author__email">
           <strong>Email:</strong> <a href="mailto:{{ author.email }}">{{ author.email }}</a>
         </li>
       {% endif %}
