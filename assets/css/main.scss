@@ -34,10 +34,16 @@
 
     "layout/page",
     "layout/archive",
+"layout/sidebar",
+"layout/json_cv";
+.page__title,
+.archive__subtitle {
+  color: #1683e8;
+}
 
 /* Align About Me with standard site pages */
 .about-page .about-hero {
-  border-bottom: 0;
+  border-bottom: 1px solid #e5e7eb;
   text-align: left;
   padding: 0 0 1.25rem;
   margin-bottom: 1.5rem;
