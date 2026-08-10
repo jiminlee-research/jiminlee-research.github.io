@@ -59,3 +59,14 @@
   padding-bottom: 0;
   margin-bottom: .85rem;
 }
+
+/* Give the left author profile more room on desktop */
+@media (min-width: 64em) {
+  .sidebar {
+    width: 28%;
+  }
+
+  .archive {
+    width: 70%;
+  }
+}
