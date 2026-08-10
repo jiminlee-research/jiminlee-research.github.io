@@ -101,12 +101,39 @@
 
 .author__email {
   display: block;
-  width: 100%;
+  width: 185px;
   margin: 1rem 0 !important;
   padding: .8rem 0 !important;
   border-top: 1px solid #e5e7eb;
   border-bottom: 1px solid #e5e7eb;
+  font-size: .9em;
   line-height: 1.6;
   text-align: left;
   white-space: nowrap !important;
+}
+
+.author__email a {
+  display: inline;
+}
+
+/* Author sidebar: move with the page */
+@media (min-width: 64em) {
+  #main {
+    position: relative;
+  }
+
+  .sidebar.sticky {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0;
+    float: none !important;
+    width: 200px;
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  .page,
+  .archive {
+    width: calc(100% - 225px);
+  }
 }
