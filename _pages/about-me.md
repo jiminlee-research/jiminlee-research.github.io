@@ -6,21 +6,22 @@ author_profile: true
 ---
 
 <style>
-.about-page { max-width: 1050px; margin: 0 auto; }
-.about-page .about-hero { text-align: center; padding: 2rem 0 2.5rem; border-bottom: 2px solid #e5e7eb; margin-bottom: 2.75rem; }
-.about-page .about-hero h1 { color: #1683e8; font-size: 2.6rem; margin: 0 0 .6rem; }
-.about-page .about-hero p { color: #5f6368; font-size: 1.2rem; margin: 0; }
-.about-page .about-section { margin: 3rem 0; }
-.about-page .about-section h2 { color: #1683e8; font-size: 1.8rem; border-bottom: 2px solid #e5e7eb; padding-bottom: .6rem; }
-.about-page .about-section p { font-size: 1.05rem; line-height: 1.8; }
-.about-page .interest-grid, .about-page .record-grid { display: grid; gap: 1.25rem; grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.about-page .interest-card, .about-page .record-card { border: 1px solid #dedede; border-radius: 14px; padding: 1.5rem; background: #fff; box-shadow: 0 3px 10px rgba(0,0,0,.05); }
-.about-page .interest-card h3, .about-page .record-card h3 { margin-top: 0; color: #303236; }
-.about-page .interest-card p, .about-page .record-card p { margin-bottom: 0; color: #5f6368; }
-.about-page .label { display: inline-block; border-radius: 999px; background: #f1f1f1; color: #666; font-size: .78rem; font-weight: 700; letter-spacing: .06em; padding: .28rem .65rem; margin-bottom: .7rem; }
+.about-page { max-width: 1000px; margin: 0 auto; }
+.about-page .about-hero { text-align: center; padding: 1.5rem 0 2rem; border-bottom: 2px solid #e5e7eb; margin-bottom: 2rem; }
+.about-page .about-hero h1 { color: #1683e8; font-size: 2.25rem; margin: 0 0 .45rem; }
+.about-page .about-hero p { color: #5f6368; font-size: 1rem; margin: 0; }
+.about-page .about-section { margin: 2.25rem 0; }
+.about-page .about-section h2 { color: #1683e8; font-size: 1.5rem; border-bottom: 2px solid #e5e7eb; padding-bottom: .45rem; margin-bottom: 1.2rem; }
+.about-page .about-section > p { font-size: .98rem; line-height: 1.7; }
+.about-page .interest-grid { display: grid; gap: 1rem; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.about-page .record-grid { display: grid; gap: 1rem; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.about-page .interest-card, .about-page .record-card { border: 1px solid #dedede; border-radius: 12px; padding: 1.1rem 1.2rem; background: #fff; box-shadow: 0 2px 7px rgba(0,0,0,.04); }
+.about-page .interest-card h3, .about-page .record-card h3 { margin: .05rem 0 .55rem; color: #303236; font-size: 1.06rem; line-height: 1.35; }
+.about-page .interest-card p, .about-page .record-card p { margin: 0; color: #5f6368; font-size: .91rem; line-height: 1.6; }
+.about-page .label { display: inline-block; border-radius: 999px; background: #f1f1f1; color: #666; font-size: .68rem; font-weight: 700; letter-spacing: .05em; padding: .22rem .55rem; margin-bottom: .45rem; }
 @media (max-width: 800px) {
   .about-page .interest-grid, .about-page .record-grid { grid-template-columns: 1fr; }
-  .about-page .about-hero h1 { font-size: 2.2rem; }
+  .about-page .about-hero h1 { font-size: 2rem; }
 }
 </style>
 
@@ -42,58 +43,48 @@ author_profile: true
       <article class="interest-card">
         <div class="label">MENTAL HEALTH EQUITY</div>
         <h3>Mental Health Disparities</h3>
-        <p>Understanding how stigma, discrimination, and trauma shape unequal mental health and behavioral health outcomes.</p>
+        <p>Stigma, discrimination, trauma, and unequal health outcomes.</p>
       </article>
       <article class="interest-card">
         <div class="label">POPULATIONS</div>
-        <h3>Socially Marginalized Populations</h3>
-        <p>Centering the experiences of refugees, sexual and gender minorities, and people with disabilities.</p>
+        <h3>Marginalized Populations</h3>
+        <p>Refugees, sexual and gender minorities, and people with disabilities.</p>
       </article>
       <article class="interest-card">
         <div class="label">APPROACH</div>
-        <h3>Rights-Based Policy and Practice</h3>
-        <p>Advancing anti-oppressive, rights-based research and policy responses to health inequities.</p>
+        <h3>Rights-Based Policy</h3>
+        <p>Anti-oppressive research and policy responses to health inequities.</p>
       </article>
     </div>
   </section>
 
   <section class="about-section">
-    <h2>Research and Practice</h2>
+    <h2>Selected Research Experience</h2>
     <div class="record-grid">
       <article class="record-card">
-        <div class="label">CURRENT</div>
-        <h3>Staff Researcher</h3>
-        <p>Institute of Health and Environment<br>Seoul National University</p>
+        <div class="label">PUBLISHED · FIRST AUTHOR</div>
+        <h3>Family Conflict and Social Isolation Among Young Adults</h3>
+        <p><strong>Role:</strong> Designed and managed the quantitative study, conducted mediation analysis, and led manuscript preparation.</p>
       </article>
       <article class="record-card">
-        <div class="label">RESEARCH ASSISTANT</div>
-        <h3>Child Welfare Outcomes</h3>
-        <p>ChildFund Korea and Kyobo Life<br>Collected, cleaned, and coded mixed-methods data for a longitudinal evaluation of protected children's welfare outcomes.</p>
+        <div class="label">PUBLISHED · CO-RESEARCHER</div>
+        <h3>Game-Based Digital Interventions for Adolescent Substance Use</h3>
+        <p><strong>Role:</strong> Conducted PRISMA-based screening and data extraction, synthesizing findings from 26 studies.</p>
       </article>
       <article class="record-card">
-        <div class="label">FIRST AUTHOR · 2024</div>
-        <h3>Family Conflict and Social Isolation</h3>
-        <p>Designed and managed a quantitative study on coping strategies for family conflict and social isolation among young adults; conducted mediation analysis and led manuscript preparation.</p>
+        <div class="label">PUBLISHED · CO-RESEARCHER</div>
+        <h3>Drug Use Attitudes Among South Korean Young Adults</h3>
+        <p><strong>Role:</strong> Supported latent class and multivariate logistic regression analyses; co-authored the theoretical background and discussion.</p>
       </article>
       <article class="record-card">
-        <div class="label">CO-RESEARCHER · 2024</div>
-        <h3>Adolescent Substance Use Interventions</h3>
-        <p>Conducted PRISMA-based screening and data extraction for a systematic review of game-based digital interventions, synthesizing evidence from 26 studies.</p>
-      </article>
-      <article class="record-card">
-                <div class="label">CO-RESEARCHER · PUBLISHED</div>
-        <h3>Drug Use Attitudes Among Young Adults</h3>
-        <p>Supported latent class and multivariate logistic regression analyses and co-authored the study's theoretical background and discussion.</p>
+        <div class="label">LONGITUDINAL EVALUATION</div>
+        <h3>Welfare Outcomes of Protected Children</h3>
+        <p><strong>Role:</strong> Collected, cleaned, and coded mixed-methods data in collaboration with ChildFund Korea and Kyobo Life.</p>
       </article>
       <article class="record-card">
         <div class="label">ACADEMIC RESEARCH</div>
-        <h3>Research Assistant</h3>
-        <p>Department of Social Welfare, Ewha Womans University<br>Developed research materials and presentations for academic and policy forums, including National Assembly briefings.</p>
-      </article>
-      <article class="record-card">
-        <div class="label">PRACTICE</div>
-        <h3>Social Worker</h3>
-        <p>Dongjak-gu Public Mental Health Welfare Center<br>Provided grief counseling and support coordination for suicide-bereaved families.</p>
+        <h3>Substance Use Social Work and Policy Translation</h3>
+        <p><strong>Role:</strong> Developed research materials and presentations for academic and policy forums, including National Assembly briefings.</p>
       </article>
     </div>
   </section>
