@@ -70,3 +70,41 @@
     width: 70%;
   }
 }
+
+
+/* Author profile */
+.author__content--centered {
+  text-align: center;
+}
+
+.author__content--centered .author__name {
+  margin: .9rem 0 .8rem;
+}
+
+.author__role {
+  margin: 0 0 1rem;
+  color: #1683e8;
+  font-size: 1.05em;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.author__affiliation {
+  margin: 0;
+  color: #5f6368;
+  font-size: .9em;
+  line-height: 1.5;
+}
+
+.author__affiliation--last {
+  margin-bottom: 1.2rem;
+}
+
+.author__email {
+  margin: 1rem 0 !important;
+  padding: .8rem 0 !important;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+  line-height: 1.6;
+  white-space: normal !important;
+}
