@@ -60,17 +60,6 @@
   margin-bottom: .85rem;
 }
 
-/* Give the left author profile more room on desktop */
-@media (min-width: 64em) {
-  .sidebar {
-    width: 28%;
-  }
-
-  .archive {
-    width: 70%;
-  }
-}
-
 
 /* Author profile */
 .author__content--centered {
@@ -104,6 +93,31 @@
   margin: 1rem 0 !important;
   padding: .8rem 0 !important;
   border-top: 1px solid #e5e7eb;
+
+   /* Keep the profile content centered without changing page columns */
+.author__avatar,
+.author__content--centered,
+.author__urls-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.author__content--centered .author__name {
+  font-size: 1.25em;
+  line-height: 1.3;
+}
+
+.author__affiliation {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.author__urls .author__email {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
   border-bottom: 1px solid #e5e7eb;
   line-height: 1.6;
   white-space: normal !important;
