@@ -1,11 +1,27 @@
 ---
 permalink: /
-title: "Jimin Lee"
+title: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
+
+<style>
+.home-welcome {
+  color: #1683e8;
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin: 0 0 0.15rem;
+}
+
+.home-name {
+  margin: 0 0 1.4rem;
+}
+</style>
+
+<div class="home-welcome">Welcome!</div>
+<h1 class="home-name">Jimin Lee</h1>
 
 I am a researcher at the Institute of Health and Environment, Seoul National University. My research focuses on mental health, health behaviors and outcomes, and social policy.
 
