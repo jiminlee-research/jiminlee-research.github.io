@@ -15,3 +15,84 @@ author_profile: true
 .about-page .about-section p { font-size: 1.05rem; line-height: 1.8; }
 .about-page .interest-grid, .about-page .record-grid { display: grid; gap: 1.25rem; grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .about-page .interest-card, .about-page .record-card { border: 1px solid #dedede; border-radius: 14px; padding: 1.5rem; background: #fff; box-shadow: 0 3px 10px rgba(0,0,0,.05); }
+.about-page .interest-card h3, .about-page .record-card h3 { margin-top: 0; color: #303236; }
+.about-page .interest-card p, .about-page .record-card p { margin-bottom: 0; color: #5f6368; }
+.about-page .label { display: inline-block; border-radius: 999px; background: #f1f1f1; color: #666; font-size: .78rem; font-weight: 700; letter-spacing: .06em; padding: .28rem .65rem; margin-bottom: .7rem; }
+@media (max-width: 800px) {
+  .about-page .interest-grid, .about-page .record-grid { grid-template-columns: 1fr; }
+  .about-page .about-hero h1 { font-size: 2.2rem; }
+}
+</style>
+
+<div class="about-page">
+  <header class="about-hero">
+    <h1>About Me</h1>
+    <p>Research, practice, and policy for mental health equity</p>
+  </header>
+
+  <section class="about-section">
+    <h2>Biography</h2>
+    <p>I am a Staff Researcher at the Institute of Health and Environment, Seoul National University. My work examines how stigma, discrimination, trauma, and other social and structural conditions shape mental health and behavioral health outcomes.</p>
+    <p>I focus on refugees, sexual and gender minorities, and people with disabilities. Across research, practice, and policy, I use an anti-oppressive, rights-based approach to identify and address the conditions that produce health inequities.</p>
+  </section>
+
+  <section class="about-section">
+    <h2>Key Interests</h2>
+    <div class="interest-grid">
+      <article class="interest-card">
+        <div class="label">MENTAL HEALTH EQUITY</div>
+        <h3>Mental Health Disparities</h3>
+        <p>Understanding how stigma, discrimination, and trauma shape unequal mental health and behavioral health outcomes.</p>
+      </article>
+      <article class="interest-card">
+        <div class="label">POPULATIONS</div>
+        <h3>Socially Marginalized Populations</h3>
+        <p>Centering the experiences of refugees, sexual and gender minorities, and people with disabilities.</p>
+      </article>
+      <article class="interest-card">
+        <div class="label">APPROACH</div>
+        <h3>Rights-Based Policy and Practice</h3>
+        <p>Advancing anti-oppressive, rights-based research and policy responses to health inequities.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="about-section">
+    <h2>Research and Practice</h2>
+    <div class="record-grid">
+      <article class="record-card">
+        <div class="label">CURRENT</div>
+        <h3>Staff Researcher</h3>
+        <p>Institute of Health and Environment<br>Seoul National University</p>
+      </article>
+      <article class="record-card">
+        <div class="label">RESEARCH</div>
+        <h3>Research Assistant</h3>
+        <p>ChildFund Korea and Kyobo Life<br>Longitudinal evaluation of protected children's welfare outcomes, 2024–2025</p>
+      </article>
+      <article class="record-card">
+        <div class="label">PRACTICE</div>
+        <h3>Social Worker</h3>
+        <p>Dongjak-gu Public Mental Health Welfare Center<br>Grief counseling and support coordination for suicide-bereaved families, 2025</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="about-section">
+    <h2>Education</h2>
+    <div class="record-grid">
+      <article class="record-card">
+        <h3>M.A. in Social Welfare</h3>
+        <p>Ewha Womans University<br>2023–2025</p>
+      </article>
+      <article class="record-card">
+        <h3>B.A. in Social Welfare</h3>
+        <p>Ewha Womans University<br>2020–2023</p>
+      </article>
+      <article class="record-card">
+        <h3>Visiting Student</h3>
+        <p>Philipps-Universität Marburg<br>2021–2022</p>
+      </article>
+    </div>
+  </section>
+</div>
