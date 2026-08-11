@@ -33,7 +33,7 @@ author_profile: true
 <div class="about-page">
 <header class="about-hero"><h1>About Me</h1><p>Research, practice, and policy for mental health equity</p></header>
 
-<section class="about-section"><h2>Biography</h2><p>I am a Staff Researcher at the Institute of Health and Environment, Seoul National University. My work examines how stigma, discrimination, trauma, and other social and structural conditions shape mental health and behavioral health outcomes.</p><p>I focus on refugees, sexual and gender minorities, and people with disabilities. Across research, practice, and policy, I use an anti-oppressive, rights-based approach to identify and address the conditions that produce health inequities.</p></section>
+<section class="about-section"><h2>Biography</h2><p></p></section>
 
 <section class="about-section"><h2>Key Interests</h2><div class="interest-grid">
 <article class="interest-card"><div class="label">MENTAL HEALTH EQUITY</div><h3>Mental Health Disparities</h3><p>Stigma, discrimination, trauma, and unequal health outcomes.</p></article>
