@@ -8,6 +8,10 @@ url: https://jiminlee-research.github.io
 baseurl: ""
 repository: "jiminlee-research.github.io"
 
+include:
+  - _pages
+  - files
+
 author:
   avatar: "bio-photo-2.jpg"
   name: "Jimin Lee, M.A."
