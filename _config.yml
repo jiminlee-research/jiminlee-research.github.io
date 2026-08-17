@@ -1,1 +1,22 @@
-# Welcome to Jekyll!## This config file is meant for settings that affect your entire site, values# which you are expected to set up once and rarely need to edit after that.# For technical reasons, this file is *NOT* reloaded automatically when you use# `jekyll serve -l -H localhost`. If you change this file, please restart the # server process.# Basic Site Settingslocale                   : "en-US"site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"title                    : "Jimin Lee"title_separator          : "-"name                     : &name "Jimin Lee"description              : &description "수정_Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a pageurl                      : https://jiminlee-research.github.io                                                            # Examplebaseurl                  : "" # the subpath of your site, e.g. "/blog"repository               : "jiminlee-research.github.io"# Site Author - The following control what appear as part of the author content on the side bar.#               If a field is blank the icon and link will not appear, otherwise it will be shown.#               Additional customization can be done by editing /_includes/author-profile.htmlauthor:  # Biographic information  avatar           : "bio-photo-2.jpg"  name             : "Jimin Lee, M.A."  pronouns         : # example: "she/her"    bio              : "Research Associate"  employer         : "Institute of Health and Environment,"  location         : "Seoul National University"  uri              : # URL  email            : "jiminlee28@snu.ac.kr"   # Academic websites  academia         : # URL
+locale: "en-US"
+site_theme: "default"
+title: "Jimin Lee"
+title_separator: "-"
+name: &name "Jimin Lee"
+description: "수정_Your Name's academic portfolio"
+url: https://jiminlee-research.github.io
+baseurl: ""
+repository: "jiminlee-research.github.io"
+
+author:
+  avatar: "bio-photo-2.jpg"
+  name: "Jimin Lee, M.A."
+  pronouns:
+  bio: "Research Associate"
+  employer: "Institute of Health and Environment,"
+  location: "Seoul National University"
+  uri:
+  email: "jiminlee28@snu.ac.kr"
+  academia:
+  googlescholar: "https://scholar.google.com/citations?user=zuMXeBkAAAAJ&hl=ko"
+  orcid: "https://orcid.org/0009-0005-3284-3373"
