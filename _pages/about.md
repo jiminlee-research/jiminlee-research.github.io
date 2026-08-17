@@ -15,7 +15,7 @@ author_profile: true
 
 <div class="home-welcome">Welcome!</div>
 
-I am Jimin, a Staff Researcher at the Institute of Health and Environment, Seoul National University. My research focuses on mental and behavioral health and the social conditions and policies that shape them.
+I am Jimin, a research associate at the Institute of Health and Environment, Seoul National University. My research focuses on mental and behavioral health and the social conditions and policies that shape them.
 
 I study how social experiences such as discrimination, stigma, and trauma contribute to mental health inequities and adverse behavioral health outcomes, including suicide, substance use, and social isolation. This interest has grown out of my research on youth social isolation and substance use, SGM mental health, and disability policy. It is also informed by my experience providing direct services to refugees and suicide-loss survivors, which has deepened my understanding of the mental health consequences of stigma, trauma, and social exclusion. I aim to develop and evaluate rights-based, evidence-informed interventions and policies that address the social conditions underlying health inequities among marginalized populations.
 
