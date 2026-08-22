@@ -24,7 +24,7 @@ author_profile: true
 .education-entry:last-child{padding-bottom:0;border-bottom:0}
 .education-entry h3{margin:0 0 .4rem;color:#303236;font-size:1.18rem;line-height:1.4}
 .education-entry p{margin:.2rem 0;color:#5f6368;font-size:.98rem;line-height:1.65}
-.education-entry a{font-weight:600}
+.education-entry a{color:#455a74;text-decoration:none;font-weight:600}
 @media(max-width:800px){.interest-grid,.record-grid{grid-template-columns:1fr}.about-hero h1{font-size:2rem}}
 </style>
 
@@ -100,12 +100,12 @@ author_profile: true
 <div class="education-list">
   <div class="education-entry">
     <h3>M.A. in Social Welfare <span>(2023–2025)</span></h3>
-    <p><a href="https://pure.ewha.ac.kr/en/">Ewha Womans University</a></p>
-    <p>Supervisor: <a href="https://pure.ewha.ac.kr/en/persons/jongserl-chun/">Jonserl Chun</a></p>
+    <p><a href="https://sw.ewha.ac.kr/sw/index.do">Ewha Womans University</a></p>
+    <p>Supervisor: <a href="https://sw.ewha.ac.kr/sw/index.dopersons/jongserl-chun/">Jonserl Chun</a></p>
   </div>
   <div class="education-entry">
     <h3>B.A. in Social Welfare <span>(2020–2023)</span></h3>
-    <p><a href="https://pure.ewha.ac.kr/en/">Ewha Womans University</a></p>
+    <p><a href="https://sw.ewha.ac.kr/sw/index.do">Ewha Womans University</a></p>
     <p>Graduated with honors</p>
   </div>
   <div class="education-entry">
