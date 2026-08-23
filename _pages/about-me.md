@@ -111,13 +111,13 @@ author_profile: true
   </div>
 
   <div class="education-entry">
-    <h3>University of Missouri–Columbia <span>(Aug 2017–May 2019)</span></h3>
-    <p>Completed coursework through the second year in Human Development and Family Science</p>
+    <h3>Visiting Student <span>(2021–2022)</span></h3>
+    <p>Philipps-Universität Marburg</p>
   </div>
 
   <div class="education-entry">
-    <h3>Visiting Student <span>(2021–2022)</span></h3>
-    <p>Philipps-Universität Marburg</p>
+    <h3>University of Missouri–Columbia <span>(2017–2019)</span></h3>
+    <p>Completed coursework through the second year in Human Development and Family Science</p>
   </div>
 </div>
 </section>
