@@ -15,9 +15,9 @@ author_profile: true
 
 <div class="home-welcome">Welcome!</div>
 
-I am Jimin, a research associate at the Institute of Health and Environment, Seoul National University. My research focuses on mental and behavioral health and the social conditions and policies that shape them.
+I am Jimin, a research associate at the Institute of Health and Environment at Seoul National University. My research focuses on mental health and health disparities among marginalized groups and the social conditions that shape them, with particular attention to access to health care.
 
-I study how social experiences such as discrimination, stigma, and trauma contribute to mental health inequities and adverse behavioral health outcomes, including suicide, substance use, and social isolation. This interest has grown out of my research on youth social isolation and substance use, SGM mental health, and disability policy. It is also informed by my experience providing direct services to refugees and suicide-loss survivors, which has deepened my understanding of the mental health consequences of stigma, trauma, and social exclusion. I aim to develop and evaluate rights-based, evidence-informed interventions and policies that address the social conditions underlying health inequities among marginalized populations.
+I study how social experiences such as discrimination and stigma, whether on a personal or systemic level, contribute to mental health inequities and adverse behavioral health outcomes. This interest has grown out of my research on young adults' social isolation and substance use, LGBTQ+ mental health service use, and disability policy. My perspective is also shaped by working directly with refugees and suicide-loss survivors, which deepened my understanding of how stigma, trauma, and social exclusion impact both their mental health and access to services. I aim to develop and evaluate rights-based, evidence-informed interventions and policies that address social conditions underlying health inequities and help build more equitable healthcare systems.
 
 ## Recent News
 
