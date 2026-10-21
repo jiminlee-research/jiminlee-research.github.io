@@ -179,4 +179,18 @@ author_profile: true
 
 </div>
 
+
+<script>
+(function(){
+  function fit(){
+    var L=document.querySelectorAll('.about-layout'); if(L.length<2) return;
+    var a1=L[0].querySelector('aside'), s1=L[0].querySelector('section'), a2=L[1].querySelector('aside');
+    a1.style.marginBottom=''; a2.style.paddingTop='';
+    if(window.innerWidth<=900) return;
+    var over=a1.offsetHeight - s1.offsetHeight;
+    if(over>0){ a1.style.marginBottom=(-over)+'px'; a2.style.paddingTop=(over+24)+'px'; }
+  }
+  window.addEventListener('load',fit); window.addEventListener('resize',fit);
+})();
+</script>
 {% include lightbox.html soft=true %}
