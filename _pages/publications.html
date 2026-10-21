@@ -1,16 +1,68 @@
 ---
 layout: archive
-title: "Publications"
+title: "Research"
 permalink: /publications/
 author_profile: true
 ---
 
-<div class="wordwrap">You can also find my articles on <a href="https://scholar.google.com/citations?user=zuMXeBkAAAAJ&hl=ko">my Google Scholar profile</a>.</div>
+<style>
+.pub-intro { color:#5f6368; font-size:.95rem; margin-bottom:1.6rem; }
+.pub-head { display:flex; align-items:baseline; justify-content:space-between; gap:1rem; border-bottom:1px solid #e5e7eb; padding-bottom:.5rem; margin-bottom:1.6rem; }
+.pub-head h2 { margin:0; border:0; font-size:1.35rem; color:#303236; }
+.pub-toggle button { background:none; border:0; padding:.2rem .5rem; font-size:.9rem; color:#6b7280; cursor:pointer; border-radius:4px; }
+.pub-toggle button.active { color:#1683e8; font-weight:700; background:#eef5fe; }
+.pub-item { display:flex; gap:1.2rem; margin:0 0 1.8rem; }
+.pub-thumb { flex:0 0 170px; }
+.pub-thumb img { width:170px; border-radius:6px; border:1px solid #e5e7eb; }
+.pub-body { flex:1; min-width:0; }
+.pub-title { font-weight:700; font-size:1rem; color:#202124; margin:0 0 .3rem; line-height:1.45; }
+.pub-authors { font-size:.92rem; color:#44484d; margin:0 0 .25rem; }
+.pub-authors .me { font-weight:700; color:#202124; }
+.pub-venue { font-size:.92rem; font-weight:700; color:#44484d; margin:0 0 .5rem; }
+.pub-links a { display:inline-block; font-size:.8rem; padding:.15rem .6rem; margin:0 .35rem .35rem 0; border:1px solid #1683e8; border-radius:4px; color:#1683e8; text-decoration:none; }
+.pub-links a:hover { background:#1683e8; color:#fff; }
+.pub-empty { color:#6b7280; font-size:.95rem; }
+@media (max-width:700px){ .pub-item{flex-direction:column;} .pub-thumb{flex-basis:auto;} }
+</style>
 
-<div class="wordwrap">If you have any questions about my research, please <a href="mailto:jiminlee28@snu.ac.kr">email me!</a></div>
+<p class="pub-intro">You can also find my articles on <a href="https://scholar.google.com/citations?user=zuMXeBkAAAAJ&hl=ko">my Google Scholar profile</a>. If you have any questions about my research, please <a href="mailto:jiminlee28@snu.ac.kr">email me!</a></p>
 
-{% include base_path %}
+<div class="pub-head">
+  <h2>Publications</h2>
+  <div class="pub-toggle">
+    <button type="button" class="active" data-show="selected">Selected</button>
+    <button type="button" data-show="all">All</button>
+  </div>
+</div>
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
+<div id="pub-list">
+{% assign pubs = site.data.publications %}
+{% if pubs.size > 0 %}
+{% for p in pubs %}
+<div class="pub-item" data-selected="{% if p.selected %}true{% else %}false{% endif %}">
+  {% if p.image %}<div class="pub-thumb"><img src="{{ p.image | relative_url }}" alt=""></div>{% endif %}
+  <div class="pub-body">
+    <p class="pub-title">{{ p.title }}</p>
+    <p class="pub-authors">{% for a in p.authors %}{% if a contains "Jimin Lee" %}<span class="me">{{ a }}</span>{% else %}{{ a }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+    <p class="pub-venue">{{ p.venue }}{% if p.year %}, {{ p.year }}{% endif %}</p>
+    {% if p.links %}<div class="pub-links">{% for l in p.links %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }}</a>{% endfor %}</div>{% endif %}
+  </div>
+</div>
 {% endfor %}
+{% else %}
+<p class="pub-empty">Publications will be listed here soon.</p>
+{% endif %}
+</div>
+
+<script>
+(function(){
+  var btns=document.querySelectorAll('.pub-toggle button'), items=document.querySelectorAll('.pub-item');
+  var anySel=Array.prototype.some.call(items,function(i){return i.dataset.selected==='true';});
+  function show(mode){
+    btns.forEach(function(b){b.classList.toggle('active',b.dataset.show===mode);});
+    items.forEach(function(i){i.style.display=(mode==='all'||i.dataset.selected==='true')?'':'none';});
+  }
+  btns.forEach(function(b){b.addEventListener('click',function(){show(b.dataset.show);});});
+  show(anySel?'selected':'all');
+})();
+</script>
