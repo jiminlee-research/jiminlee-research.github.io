@@ -26,7 +26,7 @@
 <!-- Mobile: swipe the top menu sideways instead of collapsing it into the ☰ button -->
 <style>
 @media (max-width: 900px) {
-  #site-nav .visible-links { display:flex; width:100%; max-width:100%; overflow-x:auto; overflow-y:hidden; -webkit-overflow-scrolling:touch; scrollbar-width:none; white-space:nowrap; }
+  #site-nav .visible-links { display:flex; width:calc(100% - 40px); max-width:calc(100% - 40px); overflow-x:auto; overflow-y:hidden; -webkit-overflow-scrolling:touch; scrollbar-width:none; white-space:nowrap; }
   #site-nav .visible-links::-webkit-scrollbar { display:none; }
   #site-nav .visible-links li { display:block; flex:0 0 auto; }
   #site-nav .visible-links li:first-child { text-wrap:nowrap; }
