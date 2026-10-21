@@ -47,7 +47,7 @@ author_profile: true
 
 .about-section p {
   color: #44484d;
-  font-size: .8rem;
+  font-size: .86rem;
   line-height: 1.85;
   margin: 0 0 1.2rem;
 }
@@ -62,17 +62,17 @@ author_profile: true
   }
 
   .about-section p {
-    font-size: .78rem;
+    font-size: .84rem;
     line-height: 1.8;
   }
 }
 
 
-.about-layout { display:grid; grid-template-columns:minmax(0,1fr) 160px; gap:4.5rem; align-items:start; }
+.about-layout { display:grid; grid-template-columns:minmax(0,640px) 150px; justify-content:space-between; gap:3rem; align-items:start; }
 
 .about-layout .about-section { margin-top:0; }
 .about-timeline { display:flex; flex-direction:column; align-items:center; padding-top:2.6rem; }
-.tl-photo { display:block !important; margin:0; width:132px; position:relative; background:#fff; padding:5px 5px 6px; box-shadow:0 2px 8px rgba(0,0,0,.13); border-radius:3px; }
+.tl-photo { display:block !important; margin:0; width:118px; position:relative; background:#fff; padding:5px 5px 6px; box-shadow:0 2px 8px rgba(0,0,0,.13); border-radius:3px; }
 .tl-photo img { transition:transform .15s; width:100%; display:block; border-radius:2px; }
 .tl-photo figcaption { font-family:'Indie Flower',cursive; font-size:.62rem; line-height:1.2; color:#4b5563; text-align:center !important; width:100%; margin-top:.35rem; }
 .tl-photo.tl-pair { margin-bottom:-14px; z-index:1; }
@@ -99,7 +99,7 @@ author_profile: true
 .about-more > summary::-webkit-details-marker { display:none; }
 .about-more .tl-second { padding-top:.4rem; }
 .tl-photo img:hover { transform:scale(1.03); }
-.more-card { display:flex; align-items:center; gap:.9rem; padding:.9rem 1.1rem; margin:0 0 1.4rem; background:#eef5fe; border:1px solid #cfe2fb; border-radius:12px; transition:background .15s, box-shadow .15s; max-width:calc(100% - 160px - 4.5rem); box-sizing:border-box; }
+.more-card { display:flex; align-items:center; gap:.9rem; padding:.9rem 1.1rem; margin:0 0 1.4rem; background:#eef5fe; border:1px solid #cfe2fb; border-radius:12px; transition:background .15s, box-shadow .15s; max-width:640px; box-sizing:border-box; }
 .about-more > summary:hover .more-card { background:#e3effd; box-shadow:0 2px 10px rgba(22,131,232,.12); }
 .more-emoji { font-size:1.6rem; line-height:1; animation:wave 2.4s ease-in-out infinite; transform-origin:50% 80%; }
 @keyframes wave { 0%,60%,100% { transform:rotate(0); } 10%,30% { transform:rotate(-12deg); } 20%,40% { transform:rotate(12deg); } }
