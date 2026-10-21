@@ -124,7 +124,7 @@ author_profile: true
 <aside class="about-timeline" aria-label="Photos from my journey">
 <figure class="tl-photo tilt-l"><img src="/images/about/hs.jpg" alt="At my high school in the Philippines" loading="lazy"><figcaption>At my high school in the Philippines</figcaption></figure>
 <svg class="tl-arrow" viewBox="0 0 60 46" aria-hidden="true"><path d="M30 3 C 50 12, 10 22, 30 38" /><path d="M23 32 L30 40 L36 31" /></svg>
-<figure class="tl-photo tilt-r"><img src="/images/about/missouri.jpg" alt="College in Missouri" loading="lazy"><figcaption>College in Missouri</figcaption></figure>
+<figure class="tl-photo tilt-r"><img src="/images/about/missouri.jpg" alt="Walking in the homecoming parade in Missouri" loading="lazy"><figcaption>Walking in the homecoming parade in Missouri</figcaption></figure>
 <svg class="tl-arrow" viewBox="0 0 60 46" aria-hidden="true"><path d="M30 3 C 10 12, 50 22, 30 38" /><path d="M23 32 L30 40 L36 31" /></svg>
 <figure class="tl-photo tilt-l tl-pair"><img src="/images/about/germany1.jpg" alt="With friends as a visiting student in Germany" loading="lazy"></figure>
 <figure class="tl-photo tilt-r"><img src="/images/about/germany2.jpg" alt="Visiting student in Germany" loading="lazy"><figcaption>Visiting student in Germany</figcaption></figure>
