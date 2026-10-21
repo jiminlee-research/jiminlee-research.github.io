@@ -25,9 +25,10 @@ author_profile: true
 }
 .education-entry p {
   margin: 0;
-  font-size: .95rem;
+  font-size: .86rem;
   color: #44484d;
 }
+.page__content > p { font-size: .88rem; line-height: 1.8; }
 </style>
 
 <div class="home-welcome">Welcome!</div>

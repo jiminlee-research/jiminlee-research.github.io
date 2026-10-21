@@ -1,0 +1,20 @@
+<style>
+.lb-overlay { position:fixed; inset:0; background:rgba(0,0,0,.82); display:none; align-items:center; justify-content:center; z-index:9999; padding:2rem; box-sizing:border-box; cursor:zoom-out; }
+.lb-overlay.open { display:flex; }
+.lb-overlay img { max-width:100%; max-height:100%; border-radius:6px; box-shadow:0 8px 30px rgba(0,0,0,.4); }
+.lb-close { position:absolute; top:.8rem; right:1.2rem; color:#fff; font-size:2rem; line-height:1; background:none; border:0; cursor:pointer; }
+[data-lightbox] { cursor:zoom-in; }
+</style>
+<div class="lb-overlay" id="lb" aria-hidden="true"><button class="lb-close" aria-label="Close">&times;</button><img alt=""></div>
+<script>
+(function(){
+  var lb=document.getElementById('lb'), img=lb.querySelector('img');
+  function close(){ lb.classList.remove('open'); img.removeAttribute('src'); document.body.style.overflow=''; }
+  document.addEventListener('click',function(e){
+    var t=e.target.closest('[data-lightbox]');
+    if(t){ e.preventDefault(); img.src=t.getAttribute('data-lightbox'); img.alt=t.getAttribute('alt')||''; lb.classList.add('open'); document.body.style.overflow='hidden'; return; }
+    if(lb.classList.contains('open') && (e.target===lb || e.target.classList.contains('lb-close') || e.target===img)) close();
+  });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape') close(); });
+})();
+</script>
