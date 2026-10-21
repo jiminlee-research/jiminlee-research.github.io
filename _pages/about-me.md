@@ -100,17 +100,17 @@ author_profile: true
 .about-more > summary::-webkit-details-marker { display:none; }
 .about-more .tl-second { padding-top:.4rem; }
 .tl-photo img:hover { transform:scale(1.03); }
-.more-card { display:flex; align-items:center; gap:.9rem; padding:.9rem 1.1rem; margin:0 0 1.4rem; background:#eef5fe; border:1px solid #cfe2fb; border-radius:12px; transition:background .15s, box-shadow .15s; max-width:610px; box-sizing:border-box; }
-.about-more > summary:hover .more-card { background:#e3effd; box-shadow:0 2px 10px rgba(22,131,232,.12); }
-.more-emoji { font-size:1.6rem; line-height:1; animation:wave 2.4s ease-in-out infinite; transform-origin:50% 80%; }
+.more-card { display:flex; align-items:center; gap:.6rem; padding:.2rem 0 .55rem; margin:0 0 1.4rem; border-bottom:1px solid #e5e7eb; }
+.about-more > summary:hover .more-title { font-weight:700; font-size:1.22rem; color:#303236; transition:color .15s; }
+.more-emoji { font-size:1.3rem; line-height:1; animation:wave 2.4s ease-in-out infinite; transform-origin:50% 80%; }
 @keyframes wave { 0%,60%,100% { transform:rotate(0); } 10%,30% { transform:rotate(-12deg); } 20%,40% { transform:rotate(12deg); } }
 .more-text { display:flex; flex-direction:column; }
-.more-title { font-weight:700; font-size:1.1rem; color:#1683e8; }
+.more-title { font-weight:700; font-size:1.22rem; color:#303236; transition:color .15s; }
 .more-sub { font-size:.78rem; color:#5f6368; }
-.more-icon { margin-left:auto; width:30px; height:30px; border-radius:50%; background:#1683e8; color:#fff; display:flex; align-items:center; justify-content:center; font-size:1.2rem; transition:transform .2s; flex-shrink:0; }
-.about-more[open] .more-icon { transform:rotate(45deg); }
+.more-icon { margin-left:auto; color:#9ca3af; font-size:1.3rem; line-height:1; transition:transform .2s; flex-shrink:0; }
+.about-more[open] .more-icon { margin-left:auto; color:#9ca3af; font-size:1.3rem; line-height:1; transition:transform .2s; flex-shrink:0; }
 .about-more[open] .more-sub { visibility:hidden; height:0; }
-@media (max-width:900px){ .more-card { max-width:100%; } }
+@media (max-width:900px){ .more-card { display:flex; align-items:center; gap:.6rem; padding:.2rem 0 .55rem; margin:0 0 1.4rem; border-bottom:1px solid #e5e7eb; }
 </style>
 <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 
@@ -155,7 +155,7 @@ author_profile: true
 </aside>
 </div>
 <details class="about-more">
-<summary><div class="more-card"><span class="more-emoji">🙌</span><span class="more-text"><span class="more-title">Small Memorable Details</span><span class="more-sub">Travel, morning runs, and being a "supporter" (click to open)</span></span><span class="more-icon" aria-hidden="true">+</span></div></summary>
+<summary><div class="more-card"><span class="more-emoji">🙌</span><span class="more-text"><span class="more-title">Small Memorable Details</span></span><span class="more-icon" aria-hidden="true">+</span></div></summary>
 <div class="about-layout">
 <section class="about-section">
 
