@@ -14,9 +14,6 @@ main:
   - title: "About Me"
     url: /about-me/
 
-  - title: "News"
-    url: /year-archive/
-
   - title: "CV"
     url: /cv/
 
