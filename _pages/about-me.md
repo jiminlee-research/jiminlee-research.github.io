@@ -73,7 +73,7 @@ author_profile: true
 .about-timeline { display:flex; flex-direction:column; align-items:center; padding-top:3.2rem; }
 .tl-photo { margin:0; width:150px; background:#fff; padding:5px 5px 6px; box-shadow:0 2px 8px rgba(0,0,0,.13); border-radius:3px; }
 .tl-photo img { width:100%; display:block; border-radius:2px; }
-.tl-photo figcaption { font-family:'Gaegu','Caveat',cursive; font-size:.92rem; line-height:1.2; color:#4b5563; text-align:center; margin-top:.35rem; }
+.tl-photo figcaption { font-family:'Patrick Hand',cursive; font-size:.8rem; line-height:1.2; color:#4b5563; text-align:center; margin-top:.35rem; }
 .tl-photo.tl-pair { margin-bottom:.5rem; }
 .tilt-l { transform:rotate(-2deg); }
 .tilt-r { transform:rotate(1.6deg); }
@@ -87,7 +87,7 @@ author_profile: true
   .tl-photo { width:140px; }
 }
 </style>
-<link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
 
 <div class="about-page">
 
@@ -126,10 +126,10 @@ author_profile: true
 <svg class="tl-arrow" viewBox="0 0 60 46" aria-hidden="true"><path d="M30 3 C 50 12, 10 22, 30 38" /><path d="M23 32 L30 40 L36 31" /></svg>
 <figure class="tl-photo tilt-r"><img src="/images/about/missouri.jpg" alt="Walking in the homecoming parade in Missouri" loading="lazy"><figcaption>Walking in the homecoming parade in Missouri</figcaption></figure>
 <svg class="tl-arrow" viewBox="0 0 60 46" aria-hidden="true"><path d="M30 3 C 10 12, 50 22, 30 38" /><path d="M23 32 L30 40 L36 31" /></svg>
-<figure class="tl-photo tilt-l tl-pair"><img src="/images/about/germany1.jpg" alt="With friends as a visiting student in Germany" loading="lazy"></figure>
-<figure class="tl-photo tilt-r"><img src="/images/about/germany2.jpg" alt="Visiting student in Germany" loading="lazy"><figcaption>Visiting student in Germany</figcaption></figure>
+<figure class="tl-photo tilt-l tl-pair"><img src="/images/about/germany1.jpg" alt="With friends during half a year in Germany" loading="lazy"></figure>
+<figure class="tl-photo tilt-r"><img src="/images/about/germany2.jpg" alt="Half a year in Germany" loading="lazy"><figcaption>Half a year in Germany</figcaption></figure>
 <svg class="tl-arrow" viewBox="0 0 60 46" aria-hidden="true"><path d="M30 3 C 10 12, 50 22, 30 38" /><path d="M23 32 L30 40 L36 31" /></svg>
-<figure class="tl-photo tilt-l"><img src="/images/about/mhark.jpg" alt="At the symposium of Mental Health Advancement for Refugees in Korea (MHARK)" loading="lazy"><figcaption>At the symposium of Mental Health Advancement for Refugees in Korea (MHARK)</figcaption></figure>
+<figure class="tl-photo tilt-l"><img src="/images/about/mhark.jpg" alt="At the symposium of Mental Health Advancement for Refugees in Korea" loading="lazy"><figcaption>At the symposium of Mental Health Advancement for Refugees in Korea</figcaption></figure>
 <svg class="tl-arrow" viewBox="0 0 60 46" aria-hidden="true"><path d="M30 3 C 50 12, 10 22, 30 38" /><path d="M23 32 L30 40 L36 31" /></svg>
 <figure class="tl-photo tilt-r"><img src="/images/about/desk.jpg" alt="My desk at Dongjak Community Mental Health Center" loading="lazy"><figcaption>My desk at Dongjak Community Mental Health Center</figcaption></figure>
 <svg class="tl-arrow" viewBox="0 0 60 46" aria-hidden="true"><path d="M30 3 C 10 12, 50 22, 30 38" /><path d="M23 32 L30 40 L36 31" /></svg>
