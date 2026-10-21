@@ -96,7 +96,7 @@ author_profile: true
 
 <p>I also love going for a morning run, wherever I am. Last year, when I spent 12 days solo in Sydney, I’d wake up early, run through Hyde Park, grab a pie to go, and start my day sitting on the grass watching the sunrise. It lets me see a different side of a place and sets a positive tone for the day. Running and sports are good hobbies of mine, but they're also some of the most effective ways I manage my mental health. Especially when something is on my mind, I make sure to spend enough time moving my body and meditating to find my balance again.</p>
 
-<p>Another word that describes me is “supporter.” Outside of work, a lot of my close friends come to me when they need to talk things through. I think it’s partly because I’m happy to be there for them, and partly because I always remind people how important it is to ask for help. I believe protecting anyone’s mental health and dignity takes real support and true companionship. As public care safety nets become more important than personal networks, I hope public “supporters” will become even more accessible and dependable for everyone, no matter their background.</p>
+<p>Another word that describes me is “supporter.” Outside of work, a lot of my close friends come to me when they need to talk things through. I think it’s partly because I’m happy to be there for them, and partly because I always remind people how important it is to ask for help. I believe protecting anyone’s mental health and dignity takes real support and true companionship. As public care safety nets become more important than personal networks, <strong>I hope public “supporters” will become even more accessible and dependable for everyone, no matter their background.</strong></p>
 
 </section>
 
