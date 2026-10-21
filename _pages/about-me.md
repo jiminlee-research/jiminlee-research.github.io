@@ -91,6 +91,15 @@ author_profile: true
   .tl-arrow, .tl-dots { display:none; }
   .tl-photo { width:140px; }
 }
+
+.about-more { margin-top:1rem; }
+.about-more > summary { list-style:none; cursor:pointer; display:block; }
+.about-more > summary::-webkit-details-marker { display:none; }
+.about-more > summary h2 { display:flex; align-items:center; gap:.5rem; margin:0 0 1.4rem; color:#303236; font-size:1.35rem; border-bottom:1px solid #e5e7eb; padding-bottom:.55rem; line-height:1.5; }
+.about-more > summary h2::after { content:"+"; margin-left:auto; font-weight:400; color:#1683e8; font-size:1.4rem; line-height:1; transition:transform .2s; }
+.about-more[open] > summary h2::after { transform:rotate(45deg); }
+.about-more > summary:hover h2 { color:#1683e8; }
+.about-more .tl-second { padding-top:.4rem; }
 </style>
 <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 
@@ -131,9 +140,10 @@ author_profile: true
 <figure class="tl-photo tilt-r"><img src="/images/about/desk.jpg" alt="My desk at Dongjak Community Mental Health Center" loading="lazy"><figcaption>My desk at Dongjak Community Mental Health Center</figcaption></figure>
 </aside>
 </div>
+<details class="about-more">
+<summary><h2>Small Memorable Details</h2></summary>
 <div class="about-layout">
 <section class="about-section">
-<h2>Small Memorable Details</h2>
 
 <p>Besides living abroad, I've traveled to over 20 countries since I turned 20, sometimes alone and sometimes with others. I’ve always believed in the value of self-reliance and learning through travel, so I made a point of funding every trip myself. What I enjoy most wherever I go is having conversations with people from all walks of life. I believe a good conversation is a lot like reading a good book. In that sense, traveling is an important way for me to absorb different ways of thinking across cultures and sharpen my own.</p>
 
@@ -152,6 +162,7 @@ author_profile: true
 </aside>
 
 </div>
+</details>
 
 </div>
 
