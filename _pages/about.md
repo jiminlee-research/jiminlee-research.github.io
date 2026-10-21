@@ -33,9 +33,9 @@ author_profile: true
 
 <div class="home-welcome">Welcome!</div>
 
-I am Jimin, a research associate at the Institute of Health and Environment at Seoul National University. My research focuses on mental health and health disparities among marginalized groups and the social conditions that shape them, with particular attention to access to health care.
+I am Jimin, a research associate at the Institute of Health and Environment at Seoul National University. My research focuses on mental health and health disparities among racial minorities and sexual and gender minorities (SGM) and the social conditions that shape them, with particular attention to access to health care.
 
-I study how social experiences such as discrimination and stigma, whether on a personal or systemic level, contribute to mental health inequities and adverse behavioral health outcomes. This interest has grown out of my research on young adults' social isolation and substance use, LGBTQ+ mental health service use, and disability policy. My perspective is also shaped by working directly with refugees and suicide-loss survivors, which deepened my understanding of how stigma, trauma, and social exclusion impact both their mental health and access to services. **I aim to develop and evaluate rights-based, evidence-informed interventions and policies that address social conditions underlying health inequities and help build more equitable healthcare systems.**
+I study how social experiences such as discrimination and stigma, whether on a personal or systemic level, contribute to mental health inequities and adverse behavioral health outcomes, and how organizational and policy conditions keep stigmatized groups from reaching the care they need. This interest has grown out of my research on young adults' social isolation and substance use, SGM young adults' mental health service use, and disability policy. My perspective is also shaped by working directly with refugees and suicide-loss survivors, which deepened my understanding of how stigma, trauma, and social exclusion impact both their mental health and access to services. **I aim to develop and evaluate rights-based, evidence-informed interventions and policies that address social conditions underlying health inequities and help build more equitable healthcare systems.**
 
 ## Education
 

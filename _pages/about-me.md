@@ -111,6 +111,11 @@ author_profile: true
 .about-more[open] .more-icon { margin-left:auto; color:#9ca3af; font-size:1.3rem; line-height:1; transition:transform .2s; flex-shrink:0; }
 .about-more[open] .more-sub { visibility:hidden; height:0; }
 @media (max-width:900px){ .more-card { display:flex; align-items:center; gap:.6rem; padding:.2rem 0 .55rem; margin:0 0 1.4rem; border-bottom:1px solid #e5e7eb; }
+.tl-scatter .tl-photo { margin-bottom:-6px; }
+.tl-scatter .tl-photo:nth-of-type(1) { transform:translateX(-14px) rotate(-4deg); }
+.tl-scatter .tl-photo:nth-of-type(2) { transform:translateX(16px) rotate(3.5deg); z-index:2; }
+.tl-scatter .tl-photo:nth-of-type(3) { transform:translateX(-8px) rotate(-2.5deg); z-index:3; }
+@media (max-width:900px){ .tl-scatter .tl-photo { transform:none !important; margin-bottom:0; } }
 </style>
 <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 
@@ -166,12 +171,10 @@ author_profile: true
 <p>Another word that describes me is “supporter.” Outside of work, a lot of my close friends come to me when they need to talk things through. I think it’s partly because I’m happy to be there for them, and partly because I always remind people how important it is to ask for help. I believe protecting anyone’s mental health and dignity takes real support and true companionship. As public care safety nets become more important than personal networks, <strong>I hope public “supporters” will become even more accessible and dependable for everyone, no matter their background.</strong></p>
 
 </section>
-<aside class="about-timeline tl-second" aria-label="More photos">
+<aside class="about-timeline tl-second tl-scatter" aria-label="More photos">
 <div class="tl-dots" aria-hidden="true"><span></span><span></span><span></span></div>
 <figure class="tl-photo tilt-l"><img src="/images/about/marathon.jpg" data-lightbox="/images/about/marathon.jpg" alt="Running a race in Seoul" loading="lazy"><figcaption>Running a race in Seoul</figcaption></figure>
-<svg class="tl-arrow" viewBox="0 0 60 46" aria-hidden="true"><path d="M30 3 C 50 12, 10 22, 30 38" /><path d="M23 32 L30 40 L36 31" /></svg>
 <figure class="tl-photo tilt-r"><img src="/images/about/sydney.jpg" data-lightbox="/images/about/sydney.jpg" alt="Running in Sydney!" loading="lazy"><figcaption>Running in Sydney!</figcaption></figure>
-<div class="tl-dots" aria-hidden="true"><span></span><span></span><span></span></div>
 <figure class="tl-photo tilt-l"><img src="/images/about/hands.jpg" data-lightbox="/images/about/hands.jpg" alt="Hands raised together: we rise by lifting others" loading="lazy"></figure>
 </aside>
 
@@ -181,17 +184,4 @@ author_profile: true
 </div>
 
 
-<script>
-(function(){
-  function fit(){
-    var L=document.querySelectorAll('.about-layout'); if(L.length<2) return;
-    var a1=L[0].querySelector('aside'), s1=L[0].querySelector('section'), a2=L[1].querySelector('aside');
-    a1.style.marginBottom=''; a2.style.paddingTop='';
-    if(window.innerWidth<=900) return;
-    var over=a1.offsetHeight - s1.offsetHeight;
-    if(over>0){ a1.style.marginBottom=(-over)+'px'; a2.style.paddingTop=(over+24)+'px'; }
-  }
-  window.addEventListener('load',fit); window.addEventListener('resize',fit);
-})();
-</script>
 {% include lightbox.html soft=true %}
