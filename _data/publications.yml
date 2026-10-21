@@ -1,16 +1,60 @@
-# Research page publication list.
-# Add one block per paper (newest first). Fields:
-#   title, authors (list), venue, year, selected (true/false),
-#   image (optional, e.g. /images/pub1.png), links (optional: label + url)
-#
-# Example:
-# - title: "Paper title"
-#   authors: ["Jimin Lee", "Coauthor Name"]
-#   venue: "Journal Name"
-#   year: 2025
-#   selected: true
-#   image: /images/pub1.png
-#   links:
-#     - label: Paper
-#       url: https://doi.org/...
-[]
+# Research page publication list (newest first within each type).
+# type: journal | presentation | wip
+# selected: true -> shown under "Selected"
+# image: optional thumbnail path (e.g. /images/pubs/xxx.png). Without it, a journal-name tile is shown.
+
+- type: journal
+  title: "Gender differences in attitudes towards drug use among South Korean college students: A latent class analysis"
+  authors: ["Lee, S.", "Chun, J.", "Lee, J."]
+  venue: "Journal of Drug Issues"
+  short: "J Drug Issues"
+  year: 2026
+  note: "Advance online publication"
+  selected: true
+  links:
+    - label: Paper
+      url: https://doi.org/10.1177/00220426261475115
+
+- type: journal
+  title: "Effect of coping strategies for family conflict on social isolation of young adults: Focusing on mediated effect of self-esteem"
+  authors: ["Lee, J.", "Kim, J."]
+  venue: "Social Work Practice & Research, 21(3), 123–151"
+  short: "SWPR"
+  year: 2024
+  note: "In Korean"
+  selected: true
+  links:
+    - label: Paper
+      url: https://doi.org/10.38082/SWPR.2024.21.03.123
+
+- type: journal
+  title: "Game-based digital interventions for enhancing positive development and addressing substance use in adolescents: A systematic review"
+  authors: ["Lee, S.", "Kim, J.", "Bockhold, S.", "Lee, J.", "Chun, J.", "Yu, M."]
+  venue: "Children, 11(12), Article 1554"
+  short: "Children"
+  year: 2024
+  selected: true
+  links:
+    - label: Paper
+      url: https://doi.org/10.3390/children11121554
+
+- type: presentation
+  title: "A global systematic review of digital game-based strategies targeting adolescent substance use"
+  authors: ["Lee, S.*", "Kim, J.", "Bockhold, S.", "Lee, J.", "Chun, J.", "Yu, M."]
+  venue: "Society for Social Work and Research (SSWR), Washington, DC"
+  short: "SSWR"
+  year: "Jan 2026"
+  note: "Poster"
+
+- type: presentation
+  title: "Latent class analysis of attitudes towards drug use and well-being among South Korean young adults"
+  authors: ["Lee, S.", "Chun, J.", "Lee, J.*"]
+  venue: "European Public Health Conference (EPH), Lisbon, Portugal"
+  short: "EPH"
+  year: "Nov 2024"
+  note: "Poster"
+
+- type: wip
+  title: "Mental health service use among sexual and gender minority young adults: Barriers and facilitators"
+  authors: ["Lee, J."]
+  short: "In progress"
