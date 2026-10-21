@@ -42,7 +42,7 @@ I study how social experiences such as discrimination and stigma, whether on a p
 <div class="education-list">
 <div class="education-entry">
 <h3>M.A. in Social Welfare <span>(2023–2025)</span></h3>
-<p><a href="https://www.ewha.ac.kr/ewhaen/academics/social-sciences.do">Ewha Womans University</a></p>
+<p><a href="https://sw-ewha-ac-kr.translate.goog/sw/intro/introduction.do?_x_tr_sl=ko&amp;_x_tr_tl=en&amp;_x_tr_hl=en">Ewha Womans University</a></p>
 <p>Supervisor: <a href="https://www.ewha.ac.kr/ewhaen/professor/info.do?mode=view&pId=vE9%2F7cW3ZJ6XHRoYZGt%2Bhg%3D%3D">Jonserl Chun</a></p>
 </div>
 <div class="education-entry">
