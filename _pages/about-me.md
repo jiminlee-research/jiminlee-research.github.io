@@ -67,14 +67,27 @@ author_profile: true
   }
 }
 
-.about-photo { width:42%; max-width:300px; margin:.3rem 0 1rem; }
-.about-photo.right { float:right; margin-left:1.6rem; }
-.about-photo.left { float:left; margin-right:1.6rem; }
-.about-photo img { width:100%; border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,.12); display:block; }
-.about-photo figcaption { font-size:.78rem; color:#6b7280; margin-top:.4rem; line-height:1.4; text-align:center; }
-.about-section .clear { clear:both; }
-@media (max-width:600px){ .about-photo, .about-photo.right, .about-photo.left { float:none; width:100%; max-width:none; margin:1rem 0; } }
+
+.about-layout { display:grid; grid-template-columns:minmax(0,1fr) 170px; gap:2.4rem; align-items:start; }
+.about-layout .about-section { margin-top:0; }
+.about-timeline { display:flex; flex-direction:column; align-items:center; padding-top:3.2rem; }
+.tl-photo { margin:0; width:150px; background:#fff; padding:5px 5px 6px; box-shadow:0 2px 8px rgba(0,0,0,.13); border-radius:3px; }
+.tl-photo img { width:100%; display:block; border-radius:2px; }
+.tl-photo figcaption { font-family:'Gaegu','Caveat',cursive; font-size:.92rem; line-height:1.2; color:#4b5563; text-align:center; margin-top:.35rem; }
+.tl-photo.tl-pair { margin-bottom:.5rem; }
+.tilt-l { transform:rotate(-2deg); }
+.tilt-r { transform:rotate(1.6deg); }
+.tl-arrow { width:46px; height:36px; margin:.35rem 0; overflow:visible; }
+.tl-arrow path { fill:none; stroke:#8fb8e6; stroke-width:2.2; stroke-linecap:round; stroke-linejoin:round; stroke-dasharray:5 5; }
+.tl-arrow path + path { stroke-dasharray:none; }
+@media (max-width:900px){
+  .about-layout { grid-template-columns:1fr; }
+  .about-timeline { flex-direction:row; flex-wrap:wrap; justify-content:center; gap:1rem; padding-top:0; }
+  .tl-arrow { display:none; }
+  .tl-photo { width:140px; }
+}
 </style>
+<link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&display=swap" rel="stylesheet">
 
 <div class="about-page">
 
@@ -82,40 +95,49 @@ author_profile: true
 <h1>About Me</h1>
 </header>
 
+<div class="about-layout">
 <section class="about-section">
 
 <h2>My Background (outside academia!)</h2>
 
-<figure class="about-photo right"><img src="/images/about/p1.jpg" data-lightbox="/images/about/p1.jpg" alt="Giving a speech at my high school commencement in the Philippines" loading="lazy"><figcaption>Giving a speech at my high school commencement in the Philippines</figcaption></figure>
 <p>I grew up in Seoul, always curious about what life was like beyond my city. Ever since I was a child, I promised myself that I would spend a good chunk of my life somewhere far from Seoul. That opportunity came earlier than I expected, when I entered an American high school in the Philippines, a pretty random place for a Korean teenager. And that experience shaped a lot of who I am today. There, I saw for the first time how different cultures protect, or sometimes fail to protect, basic rights. There was much I appreciated about life in the Philippines, but I also saw how little value was sometimes placed on human lives, from the vulnerability of street children to state violence that had become routine. These were things I simply hadn't seen growing up at home.</p>
 
-<figure class="about-photo left"><img src="/images/about/p2.jpg" data-lightbox="/images/about/p2.jpg" alt="At an international parade during college in Missouri" loading="lazy"><figcaption>At an international parade during college in Missouri</figcaption></figure>
 <p>Later, I moved to Missouri for college, which gave me the perspective of living as a minority myself. I remember sitting in a psychology class with about 100 people and realizing that I was the only Asian in the room! At the same time, I was struck by how much more space there was for LGBTQ+ people in the U.S. compared to Korea, which remains one of the least queer-friendly countries in the OECD. And when I went to Germany as a visiting student, I found cities far more accessible and barrier-free than anywhere I’d been before.</p>
 
-<figure class="about-photo right"><img src="/images/about/p5.jpg" data-lightbox="/images/about/p5.jpg" alt="Friends from many cultures, my biggest source of strength" loading="lazy"><figcaption>Friends from many cultures, my biggest source of strength</figcaption></figure>
 <p>These experiences shaped my belief that minority status or vulnerability is something "made" by states and culture, which means society also bears responsibility for the conditions that put people at risk. That belief guides how I see the world and the questions I ask in my research, and keeps me speaking out against inequality.</p>
 
-<figure class="about-photo left"><img src="/images/about/p3.jpg" data-lightbox="/images/about/p3.jpg" alt="At the symposium of Mental Health Advancement for Refugees in Korea (MHARK)" loading="lazy"><figcaption>At the symposium of Mental Health Advancement for Refugees in Korea (MHARK)</figcaption></figure>
 <p>I am a social worker, and I take pride in standing with people as they fight for their rights and dignity. I worked on the MHPSS team at a refugee support organization, where I counseled refugee families, connected them with resources, and provided medical interpretation. I also led a program that supported refugees in sharing their stories as public speakers. What mattered most to me in that role was supporting them to speak for themselves, share their experiences of injustice, and describe their adjustment journeys in their own words.</p>
 
-<figure class="about-photo right"><img src="/images/about/p6.jpg" data-lightbox="/images/about/p6.jpg" alt="My desk at Dongjak Community Mental Health Center, where I supported suicide-loss survivors" loading="lazy"><figcaption>My desk at Dongjak Community Mental Health Center, where I supported suicide-loss survivors</figcaption></figure>
 <p>Later, driven by a deep interest in trauma, I worked as a public social worker with young people who had attempted suicide and with those who had lost their family to suicide. My job involved long-term case management, connecting people with financial assistance, legal services, and peer support, and providing regular psychological counseling.</p>
 
 <p>Throughout this process, it’s always mattered to me to find ways research and policy can address the challenges I faced in practice. That’s what brought me to the Institute of Health and Environment at Seoul National University, where I now devote myself to policy analysis and developing actionable recommendations.</p>
 
-<div class="clear"></div>
 <h2>Small Memorable Details</h2>
 
 <p>Besides living abroad, I've traveled to over 20 countries since I turned 20, sometimes alone and sometimes with others. I’ve always believed in the value of self-reliance and learning through travel, so I made a point of funding every trip myself. What I enjoy most wherever I go is having conversations with people from all walks of life. I believe a good conversation is a lot like reading a good book. In that sense, traveling is an important way for me to absorb different ways of thinking across cultures and sharpen my own.</p>
 
-<figure class="about-photo left"><img src="/images/about/p4.jpg" data-lightbox="/images/about/p4.jpg" alt="Running a race in Seoul" loading="lazy"><figcaption>Running a race in Seoul</figcaption></figure>
 <p>I also love going for a morning run, wherever I am. Last year, when I spent 12 days solo in Sydney, I’d wake up early, run through Hyde Park, grab a pie to go, and start my day sitting on the grass watching the sunrise. It lets me see a different side of a place and sets a positive tone for the day. Running and sports are good hobbies of mine, but they're also some of the most effective ways I manage my mental health. Especially when something is on my mind, I make sure to spend enough time moving my body and meditating to find my balance again.</p>
 
 <p>Another word that describes me is “supporter.” Outside of work, a lot of my close friends come to me when they need to talk things through. I think it’s partly because I’m happy to be there for them, and partly because I always remind people how important it is to ask for help. I believe protecting anyone’s mental health and dignity takes real support and true companionship. As public care safety nets become more important than personal networks, <strong>I hope public “supporters” will become even more accessible and dependable for everyone, no matter their background.</strong></p>
 
-<div class="clear"></div>
 </section>
+<aside class="about-timeline" aria-label="Photos from my journey">
+<figure class="tl-photo tilt-l"><img src="/images/about/hs.jpg" alt="At my high school in the Philippines" loading="lazy"><figcaption>At my high school in the Philippines</figcaption></figure>
+<svg class="tl-arrow" viewBox="0 0 60 46" aria-hidden="true"><path d="M30 3 C 50 12, 10 22, 30 38" /><path d="M23 32 L30 40 L36 31" /></svg>
+<figure class="tl-photo tilt-r"><img src="/images/about/missouri.jpg" alt="College in Missouri" loading="lazy"><figcaption>College in Missouri</figcaption></figure>
+<svg class="tl-arrow" viewBox="0 0 60 46" aria-hidden="true"><path d="M30 3 C 10 12, 50 22, 30 38" /><path d="M23 32 L30 40 L36 31" /></svg>
+<figure class="tl-photo tilt-l tl-pair"><img src="/images/about/germany1.jpg" alt="With friends as a visiting student in Germany" loading="lazy"></figure>
+<figure class="tl-photo tilt-r"><img src="/images/about/germany2.jpg" alt="Visiting student in Germany" loading="lazy"><figcaption>Visiting student in Germany</figcaption></figure>
+<svg class="tl-arrow" viewBox="0 0 60 46" aria-hidden="true"><path d="M30 3 C 10 12, 50 22, 30 38" /><path d="M23 32 L30 40 L36 31" /></svg>
+<figure class="tl-photo tilt-l"><img src="/images/about/mhark.jpg" alt="At the symposium of Mental Health Advancement for Refugees in Korea (MHARK)" loading="lazy"><figcaption>At the symposium of Mental Health Advancement for Refugees in Korea (MHARK)</figcaption></figure>
+<svg class="tl-arrow" viewBox="0 0 60 46" aria-hidden="true"><path d="M30 3 C 50 12, 10 22, 30 38" /><path d="M23 32 L30 40 L36 31" /></svg>
+<figure class="tl-photo tilt-r"><img src="/images/about/desk.jpg" alt="My desk at Dongjak Community Mental Health Center" loading="lazy"><figcaption>My desk at Dongjak Community Mental Health Center</figcaption></figure>
+<svg class="tl-arrow" viewBox="0 0 60 46" aria-hidden="true"><path d="M30 3 C 10 12, 50 22, 30 38" /><path d="M23 32 L30 40 L36 31" /></svg>
+<figure class="tl-photo tilt-l"><img src="/images/about/sydney.jpg" alt="Running in Sydney!" loading="lazy"><figcaption>Running in Sydney!</figcaption></figure>
+<svg class="tl-arrow" viewBox="0 0 60 46" aria-hidden="true"><path d="M30 3 C 50 12, 10 22, 30 38" /><path d="M23 32 L30 40 L36 31" /></svg>
+<figure class="tl-photo tilt-r"><img src="/images/about/marathon.jpg" alt="Running a race in Seoul" loading="lazy"><figcaption>Running a race in Seoul</figcaption></figure>
+</aside>
+</div>
 
 </div>
 
-{% include lightbox.html %}
