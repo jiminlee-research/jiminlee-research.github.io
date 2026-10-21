@@ -68,7 +68,7 @@ author_profile: true
 }
 
 
-.about-layout { display:grid; grid-template-columns:minmax(0,610px) 150px; justify-content:space-between; gap:3rem; align-items:start; }
+.about-layout { display:grid; grid-template-columns:minmax(0,610px) 150px; justify-content:start; gap:5rem; align-items:start; }
 
 .about-layout .about-section { margin-top:0; }
 .about-timeline { display:flex; flex-direction:column; align-items:center; padding-top:2.6rem; }
@@ -77,6 +77,7 @@ author_profile: true
 .tl-photo figcaption { font-family:'Indie Flower',cursive; font-size:.62rem; line-height:1.2; color:#4b5563; text-align:center !important; width:100%; margin-top:.35rem; }
 .tl-photo.tl-pair { margin-bottom:-14px; z-index:1; }
 .tl-photo.tl-pair + .tl-photo { z-index:2; }
+.tl-photo.tl-pair:has(figcaption) { margin-bottom:.4rem; }
 .tilt-l { transform:rotate(-2deg); }
 .tilt-r { transform:rotate(1.6deg); }
 .tl-dots { display:flex; flex-direction:column; align-items:center; gap:9px; margin:0 0 1.2rem; }
