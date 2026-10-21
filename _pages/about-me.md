@@ -69,7 +69,7 @@ author_profile: true
 
 
 .about-layout { display:grid; grid-template-columns:minmax(0,1fr) 160px; gap:3.5rem; align-items:start; }
-@media (min-width:1100px){ .about-timeline { margin-right:-5.5rem; } .about-layout { gap:2.5rem; } }
+@media (min-width:1100px){ .about-timeline { margin-right:-5rem; } .about-layout { gap:2.5rem; } }
 .about-layout .about-section { margin-top:0; }
 .about-timeline { display:flex; flex-direction:column; align-items:center; padding-top:3.2rem; }
 .tl-photo { display:block !important; margin:0; width:150px; background:#fff; padding:5px 5px 6px; box-shadow:0 2px 8px rgba(0,0,0,.13); border-radius:3px; }
