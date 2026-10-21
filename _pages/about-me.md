@@ -73,7 +73,7 @@ author_profile: true
 .about-timeline { display:flex; flex-direction:column; align-items:center; padding-top:3.2rem; }
 .tl-photo { display:block !important; margin:0; width:150px; background:#fff; padding:5px 5px 6px; box-shadow:0 2px 8px rgba(0,0,0,.13); border-radius:3px; }
 .tl-photo img { width:100%; display:block; border-radius:2px; }
-.tl-photo figcaption { font-family:'Nanum Pen Script',cursive; font-size:1.05rem; line-height:1.2; color:#4b5563; text-align:center !important; width:100%; margin-top:.35rem; }
+.tl-photo figcaption { font-family:'Indie Flower',cursive; font-size:.62rem; line-height:1.2; color:#4b5563; text-align:center !important; width:100%; margin-top:.35rem; }
 .tl-photo.tl-pair { margin-bottom:.5rem; }
 .tilt-l { transform:rotate(-2deg); }
 .tilt-r { transform:rotate(1.6deg); }
@@ -92,7 +92,7 @@ author_profile: true
   .tl-photo { width:140px; }
 }
 </style>
-<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 
 <div class="about-page">
 
@@ -144,9 +144,9 @@ author_profile: true
 </section>
 <aside class="about-timeline tl-second" aria-label="More photos">
 <div class="tl-dots" aria-hidden="true"><span></span><span></span><span></span></div>
-<figure class="tl-photo tilt-l"><img src="/images/about/sydney.jpg" alt="Running in Sydney!" loading="lazy"><figcaption>Running in Sydney!</figcaption></figure>
+<figure class="tl-photo tilt-l"><img src="/images/about/marathon.jpg" alt="Running a race in Seoul" loading="lazy"><figcaption>Running a race in Seoul</figcaption></figure>
 <svg class="tl-arrow" viewBox="0 0 60 46" aria-hidden="true"><path d="M30 3 C 50 12, 10 22, 30 38" /><path d="M23 32 L30 40 L36 31" /></svg>
-<figure class="tl-photo tilt-r"><img src="/images/about/marathon.jpg" alt="Running a race in Seoul" loading="lazy"><figcaption>Running a race in Seoul</figcaption></figure>
+<figure class="tl-photo tilt-r"><img src="/images/about/sydney.jpg" alt="Running in Sydney!" loading="lazy"><figcaption>Running in Sydney!</figcaption></figure>
 <div class="tl-dots" aria-hidden="true"><span></span><span></span><span></span></div>
 <figure class="tl-photo tilt-l"><img src="/images/about/hands.jpg" alt="Hands raised together: we rise by lifting others" loading="lazy"></figure>
 </aside>
