@@ -35,18 +35,23 @@ author_profile: true
 
 <div class="interest-grid">
   <article class="interest-card">
-    <div class="label">MENTAL HEALTH EQUITY</div>
-    <h3>Mental Health Disparities</h3>
+    <div class="label">Research Focus</div>
+    <h3>Health and Mental Health Disparities</h3>
     <p>Stigma, discrimination, trauma, and unequal health outcomes.</p>
+  </article>
+   <article class="interest-card">
+    <div class="label">Level of Analysis</div>
+    <h3>Mental Health Services</h3>
+    <p>Barriers and facilitators to equitable access to care.</p>
   </article>
   <article class="interest-card">
     <div class="label">POPULATIONS</div>
     <h3>Marginalized Populations</h3>
-    <p>Refugees, sexual and gender minorities, and people with disabilities.</p>
+    <p>Sexual and gender minorities, immigrants, and Racial/Ethnic minorities</p>
   </article>
   <article class="interest-card">
     <div class="label">APPROACH</div>
-    <h3>Rights-Based Policy</h3>
+    <h3>Rights-Based Approach</h3>
     <p>Anti-oppressive research and policy responses to health inequities.</p>
   </article>
 </div>
@@ -57,9 +62,9 @@ author_profile: true
 
 <div class="record-grid">
   <article class="record-card">
-    <div class="label">STAFF RESEARCHER</div>
-    <h3>Health Equity Research</h3>
-    <p>Institute of Health and Environment, Seoul National University.</p>
+    <div class="label">RESEARCH Associate</div>
+    <h3>Disability Policy</h3>
+    <p>Institute of Health and Environment, Graduate School of Public Health, Seoul National University.</p>
   </article>
   <article class="record-card">
     <div class="label">RESEARCH ASSISTANT</div>
