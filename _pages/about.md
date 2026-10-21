@@ -58,7 +58,3 @@ I study how social experiences such as discrimination and stigma, whether on a p
 <p>Completed coursework through the second year in Human Development and Family Science</p>
 </div>
 </div>
-
-## Selected Publications
-
-Selected publications will be added here.
