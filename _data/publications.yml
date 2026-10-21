@@ -5,6 +5,7 @@
 
 - type: journal
   title: "Gender differences in attitudes towards drug use among South Korean college students: A latent class analysis"
+  image: /images/pubs/drug-attitudes-lca.jpg
   authors: ["Lee, S.", "Chun, J.", "Lee, J."]
   venue: "Journal of Drug Issues"
   short: "J Drug Issues"
@@ -17,6 +18,7 @@
 
 - type: journal
   title: "Effect of coping strategies for family conflict on social isolation of young adults: Focusing on mediated effect of self-esteem"
+  image: /images/pubs/family-conflict-isolation.jpg
   authors: ["Lee, J.", "Kim, J."]
   venue: "Social Work Practice & Research, 21(3), 123–151"
   short: "SWPR"
@@ -29,6 +31,7 @@
 
 - type: journal
   title: "Game-based digital interventions for enhancing positive development and addressing substance use in adolescents: A systematic review"
+  image: /images/pubs/game-based-sr.jpg
   authors: ["Lee, S.", "Kim, J.", "Bockhold, S.", "Lee, J.", "Chun, J.", "Yu, M."]
   venue: "Children, 11(12), Article 1554"
   short: "Children"
@@ -40,6 +43,7 @@
 
 - type: presentation
   title: "A global systematic review of digital game-based strategies targeting adolescent substance use"
+  image: /images/pubs/game-based-sr.jpg
   authors: ["Lee, S.*", "Kim, J.", "Bockhold, S.", "Lee, J.", "Chun, J.", "Yu, M."]
   venue: "Society for Social Work and Research (SSWR), Washington, DC"
   short: "SSWR"
@@ -48,6 +52,7 @@
 
 - type: presentation
   title: "Latent class analysis of attitudes towards drug use and well-being among South Korean young adults"
+  image: /images/pubs/drug-attitudes-lca.jpg
   authors: ["Lee, S.", "Chun, J.", "Lee, J.*"]
   venue: "European Public Health Conference (EPH), Lisbon, Portugal"
   short: "EPH"
