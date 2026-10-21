@@ -71,23 +71,26 @@ author_profile: true
 .about-layout { display:grid; grid-template-columns:minmax(0,1fr) 170px; gap:2.4rem; align-items:start; }
 .about-layout .about-section { margin-top:0; }
 .about-timeline { display:flex; flex-direction:column; align-items:center; padding-top:3.2rem; }
-.tl-photo { margin:0; width:150px; background:#fff; padding:5px 5px 6px; box-shadow:0 2px 8px rgba(0,0,0,.13); border-radius:3px; }
+.tl-photo { display:block !important; margin:0; width:150px; background:#fff; padding:5px 5px 6px; box-shadow:0 2px 8px rgba(0,0,0,.13); border-radius:3px; }
 .tl-photo img { width:100%; display:block; border-radius:2px; }
-.tl-photo figcaption { font-family:'Patrick Hand',cursive; font-size:.8rem; line-height:1.2; color:#4b5563; text-align:center; margin-top:.35rem; }
+.tl-photo figcaption { font-family:'Nanum Pen Script',cursive; font-size:1.05rem; line-height:1.2; color:#4b5563; text-align:center !important; width:100%; margin-top:.35rem; }
 .tl-photo.tl-pair { margin-bottom:.5rem; }
 .tilt-l { transform:rotate(-2deg); }
 .tilt-r { transform:rotate(1.6deg); }
+.tl-dots { display:flex; flex-direction:column; align-items:center; gap:9px; margin:0 0 1.2rem; }
+.tl-dots span { width:5px; height:5px; border-radius:50%; background:#8fb8e6; }
+.tl-second { padding-top:0; }
 .tl-arrow { width:46px; height:36px; margin:.35rem 0; overflow:visible; }
 .tl-arrow path { fill:none; stroke:#8fb8e6; stroke-width:2.2; stroke-linecap:round; stroke-linejoin:round; stroke-dasharray:5 5; }
 .tl-arrow path + path { stroke-dasharray:none; }
 @media (max-width:900px){
   .about-layout { grid-template-columns:1fr; }
   .about-timeline { flex-direction:row; flex-wrap:wrap; justify-content:center; gap:1rem; padding-top:0; }
-  .tl-arrow { display:none; }
+  .tl-arrow, .tl-dots { display:none; }
   .tl-photo { width:140px; }
 }
 </style>
-<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
 
 <div class="about-page">
 
@@ -112,14 +115,6 @@ author_profile: true
 
 <p>Throughout this process, it’s always mattered to me to find ways research and policy can address the challenges I faced in practice. That’s what brought me to the Institute of Health and Environment at Seoul National University, where I now devote myself to policy analysis and developing actionable recommendations.</p>
 
-<h2>Small Memorable Details</h2>
-
-<p>Besides living abroad, I've traveled to over 20 countries since I turned 20, sometimes alone and sometimes with others. I’ve always believed in the value of self-reliance and learning through travel, so I made a point of funding every trip myself. What I enjoy most wherever I go is having conversations with people from all walks of life. I believe a good conversation is a lot like reading a good book. In that sense, traveling is an important way for me to absorb different ways of thinking across cultures and sharpen my own.</p>
-
-<p>I also love going for a morning run, wherever I am. Last year, when I spent 12 days solo in Sydney, I’d wake up early, run through Hyde Park, grab a pie to go, and start my day sitting on the grass watching the sunrise. It lets me see a different side of a place and sets a positive tone for the day. Running and sports are good hobbies of mine, but they're also some of the most effective ways I manage my mental health. Especially when something is on my mind, I make sure to spend enough time moving my body and meditating to find my balance again.</p>
-
-<p>Another word that describes me is “supporter.” Outside of work, a lot of my close friends come to me when they need to talk things through. I think it’s partly because I’m happy to be there for them, and partly because I always remind people how important it is to ask for help. I believe protecting anyone’s mental health and dignity takes real support and true companionship. As public care safety nets become more important than personal networks, <strong>I hope public “supporters” will become even more accessible and dependable for everyone, no matter their background.</strong></p>
-
 </section>
 <aside class="about-timeline" aria-label="Photos from my journey">
 <figure class="tl-photo tilt-l"><img src="/images/about/hs.jpg" alt="At my high school in the Philippines" loading="lazy"><figcaption>At my high school in the Philippines</figcaption></figure>
@@ -132,11 +127,26 @@ author_profile: true
 <figure class="tl-photo tilt-l"><img src="/images/about/mhark.jpg" alt="At the symposium of Mental Health Advancement for Refugees in Korea" loading="lazy"><figcaption>At the symposium of Mental Health Advancement for Refugees in Korea</figcaption></figure>
 <svg class="tl-arrow" viewBox="0 0 60 46" aria-hidden="true"><path d="M30 3 C 50 12, 10 22, 30 38" /><path d="M23 32 L30 40 L36 31" /></svg>
 <figure class="tl-photo tilt-r"><img src="/images/about/desk.jpg" alt="My desk at Dongjak Community Mental Health Center" loading="lazy"><figcaption>My desk at Dongjak Community Mental Health Center</figcaption></figure>
-<svg class="tl-arrow" viewBox="0 0 60 46" aria-hidden="true"><path d="M30 3 C 10 12, 50 22, 30 38" /><path d="M23 32 L30 40 L36 31" /></svg>
+</aside>
+</div>
+<div class="about-layout">
+<section class="about-section">
+<h2>Small Memorable Details</h2>
+
+<p>Besides living abroad, I've traveled to over 20 countries since I turned 20, sometimes alone and sometimes with others. I’ve always believed in the value of self-reliance and learning through travel, so I made a point of funding every trip myself. What I enjoy most wherever I go is having conversations with people from all walks of life. I believe a good conversation is a lot like reading a good book. In that sense, traveling is an important way for me to absorb different ways of thinking across cultures and sharpen my own.</p>
+
+<p>I also love going for a morning run, wherever I am. Last year, when I spent 12 days solo in Sydney, I’d wake up early, run through Hyde Park, grab a pie to go, and start my day sitting on the grass watching the sunrise. It lets me see a different side of a place and sets a positive tone for the day. Running and sports are good hobbies of mine, but they're also some of the most effective ways I manage my mental health. Especially when something is on my mind, I make sure to spend enough time moving my body and meditating to find my balance again.</p>
+
+<p>Another word that describes me is “supporter.” Outside of work, a lot of my close friends come to me when they need to talk things through. I think it’s partly because I’m happy to be there for them, and partly because I always remind people how important it is to ask for help. I believe protecting anyone’s mental health and dignity takes real support and true companionship. As public care safety nets become more important than personal networks, <strong>I hope public “supporters” will become even more accessible and dependable for everyone, no matter their background.</strong></p>
+
+</section>
+<aside class="about-timeline tl-second" aria-label="More photos">
+<div class="tl-dots" aria-hidden="true"><span></span><span></span><span></span></div>
 <figure class="tl-photo tilt-l"><img src="/images/about/sydney.jpg" alt="Running in Sydney!" loading="lazy"><figcaption>Running in Sydney!</figcaption></figure>
 <svg class="tl-arrow" viewBox="0 0 60 46" aria-hidden="true"><path d="M30 3 C 50 12, 10 22, 30 38" /><path d="M23 32 L30 40 L36 31" /></svg>
 <figure class="tl-photo tilt-r"><img src="/images/about/marathon.jpg" alt="Running a race in Seoul" loading="lazy"><figcaption>Running a race in Seoul</figcaption></figure>
 </aside>
+
 </div>
 
 </div>
