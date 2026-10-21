@@ -22,4 +22,16 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="var(--global-bg-color)"/>
 
+
+<!-- Mobile: swipe the top menu sideways instead of collapsing it into the ☰ button -->
+<style>
+@media (max-width: 900px) {
+  #site-nav .visible-links { display:flex; width:100%; max-width:100%; overflow-x:auto; overflow-y:hidden; -webkit-overflow-scrolling:touch; scrollbar-width:none; white-space:nowrap; }
+  #site-nav .visible-links::-webkit-scrollbar { display:none; }
+  #site-nav .visible-links li { display:block; flex:0 0 auto; }
+  #site-nav .visible-links li:first-child { text-wrap:nowrap; }
+  #site-nav > button, #site-nav .hidden-links { display:none !important; }
+}
+</style>
+
 <!-- end custom head snippets -->
