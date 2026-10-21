@@ -128,9 +128,9 @@ author_profile: true
 
 </section>
 <aside class="about-timeline" aria-label="Photos from my journey">
-<figure class="tl-photo tilt-l tl-pair"><img src="/images/about/hs.jpg" alt="Giving a speech at my high school commencement in the Philippines" loading="lazy"></figure>
-<figure class="tl-photo tilt-r tl-pair"><img src="/images/about/ph-campus.jpg" alt="My high school campus in the Philippines at sunset" loading="lazy"></figure>
-<figure class="tl-photo tilt-l"><img src="/images/about/ph-volunteer.jpg" alt="Playing with children while volunteering at a children's home in the Philippines" loading="lazy"><figcaption>High school years in the Philippines</figcaption></figure>
+<figure class="tl-photo tilt-l tl-pair"><img src="/images/about/ph-campus.jpg" alt="My high school campus in the Philippines at sunset" loading="lazy"></figure>
+<figure class="tl-photo tilt-r tl-pair"><img src="/images/about/ph-volunteer.jpg" alt="Playing with children while volunteering at a children's home in the Philippines" loading="lazy"></figure>
+<figure class="tl-photo tilt-l"><img src="/images/about/hs.jpg" alt="Giving a speech at my high school commencement in the Philippines" loading="lazy"><figcaption>High school years in the Philippines</figcaption></figure>
 <svg class="tl-arrow" viewBox="0 0 60 46" aria-hidden="true"><path d="M30 3 C 50 12, 10 22, 30 38" /><path d="M23 32 L30 40 L36 31" /></svg>
 <figure class="tl-photo tilt-l tl-pair"><img src="/images/about/missouri-library.jpg" alt="Walking through the library stacks in college in Missouri" loading="lazy"></figure>
 <figure class="tl-photo tilt-r"><img src="/images/about/missouri.jpg" alt="Walking in the homecoming parade in Missouri" loading="lazy"><figcaption>College years in Missouri</figcaption></figure>
