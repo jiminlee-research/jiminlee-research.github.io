@@ -43,7 +43,6 @@
 
 - type: presentation
   title: "A global systematic review of digital game-based strategies targeting adolescent substance use"
-  image: /images/pubs/game-based-sr.jpg
   authors: ["Lee, S.*", "Kim, J.", "Bockhold, S.", "Lee, J.", "Chun, J.", "Yu, M."]
   venue: "Society for Social Work and Research (SSWR), Washington, DC"
   short: "SSWR"
@@ -52,7 +51,6 @@
 
 - type: presentation
   title: "Latent class analysis of attitudes towards drug use and well-being among South Korean young adults"
-  image: /images/pubs/drug-attitudes-lca.jpg
   authors: ["Lee, S.", "Chun, J.", "Lee, J.*"]
   venue: "European Public Health Conference (EPH), Lisbon, Portugal"
   short: "EPH"
