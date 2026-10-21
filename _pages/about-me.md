@@ -72,7 +72,7 @@ author_profile: true
 .about-layout .about-section { margin-top:0; }
 .about-timeline { display:flex; flex-direction:column; align-items:center; padding-top:3.2rem; }
 .tl-photo { display:block !important; margin:0; width:150px; background:#fff; padding:5px 5px 6px; box-shadow:0 2px 8px rgba(0,0,0,.13); border-radius:3px; }
-.tl-photo img { width:100%; display:block; border-radius:2px; }
+.tl-photo img { transition:transform .15s; width:100%; display:block; border-radius:2px; }
 .tl-photo figcaption { font-family:'Indie Flower',cursive; font-size:.62rem; line-height:1.2; color:#4b5563; text-align:center !important; width:100%; margin-top:.35rem; }
 .tl-photo.tl-pair { margin-bottom:.5rem; }
 .tilt-l { transform:rotate(-2deg); }
@@ -100,6 +100,7 @@ author_profile: true
 .about-more[open] > summary h2::after { transform:rotate(45deg); }
 .about-more > summary:hover h2 { color:#1683e8; }
 .about-more .tl-second { padding-top:.4rem; }
+.tl-photo img:hover { transform:scale(1.03); }
 </style>
 <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 
@@ -128,19 +129,19 @@ author_profile: true
 
 </section>
 <aside class="about-timeline" aria-label="Photos from my journey">
-<figure class="tl-photo tilt-l tl-pair"><img src="/images/about/ph-campus.jpg" alt="My high school campus in the Philippines at sunset" loading="lazy"></figure>
-<figure class="tl-photo tilt-r tl-pair"><img src="/images/about/ph-volunteer.jpg" alt="Playing with children while volunteering at a children's home in the Philippines" loading="lazy"></figure>
-<figure class="tl-photo tilt-l"><img src="/images/about/hs.jpg" alt="Giving a speech at my high school commencement in the Philippines" loading="lazy"><figcaption>High school years in the Philippines</figcaption></figure>
+<figure class="tl-photo tilt-l tl-pair"><img src="/images/about/ph-campus.jpg" data-lightbox="/images/about/ph-campus.jpg" alt="My high school campus in the Philippines at sunset" loading="lazy"></figure>
+<figure class="tl-photo tilt-r tl-pair"><img src="/images/about/ph-volunteer.jpg" data-lightbox="/images/about/ph-volunteer.jpg" alt="Playing with children while volunteering at a children's home in the Philippines" loading="lazy"></figure>
+<figure class="tl-photo tilt-l"><img src="/images/about/hs.jpg" data-lightbox="/images/about/hs.jpg" alt="Giving a speech at my high school commencement in the Philippines" loading="lazy"><figcaption>High school years in the Philippines</figcaption></figure>
 <svg class="tl-arrow" viewBox="0 0 60 46" aria-hidden="true"><path d="M30 3 C 50 12, 10 22, 30 38" /><path d="M23 32 L30 40 L36 31" /></svg>
-<figure class="tl-photo tilt-l tl-pair"><img src="/images/about/missouri-library.jpg" alt="Walking through the library stacks in college in Missouri" loading="lazy"></figure>
-<figure class="tl-photo tilt-r"><img src="/images/about/missouri.jpg" alt="Walking in the homecoming parade in Missouri" loading="lazy"><figcaption>College years in Missouri</figcaption></figure>
+<figure class="tl-photo tilt-l tl-pair"><img src="/images/about/missouri-library.jpg" data-lightbox="/images/about/missouri-library.jpg" alt="Walking through the library stacks in college in Missouri" loading="lazy"></figure>
+<figure class="tl-photo tilt-r"><img src="/images/about/missouri.jpg" data-lightbox="/images/about/missouri.jpg" alt="Walking in the homecoming parade in Missouri" loading="lazy"><figcaption>College years in Missouri</figcaption></figure>
 <svg class="tl-arrow" viewBox="0 0 60 46" aria-hidden="true"><path d="M30 3 C 10 12, 50 22, 30 38" /><path d="M23 32 L30 40 L36 31" /></svg>
 <figure class="tl-photo tilt-l tl-pair"><img src="/images/about/germany1.jpg" alt="With friends during half a year in Germany" loading="lazy"></figure>
 <figure class="tl-photo tilt-r"><img src="/images/about/germany2.jpg" alt="Half a year in Germany" loading="lazy"><figcaption>Half a year in Germany</figcaption></figure>
 <svg class="tl-arrow" viewBox="0 0 60 46" aria-hidden="true"><path d="M30 3 C 10 12, 50 22, 30 38" /><path d="M23 32 L30 40 L36 31" /></svg>
-<figure class="tl-photo tilt-l"><img src="/images/about/mhark.jpg" alt="At the symposium of Mental Health Advancement for Refugees in Korea" loading="lazy"><figcaption>At the symposium of Mental Health Advancement for Refugees in Korea</figcaption></figure>
+<figure class="tl-photo tilt-l"><img src="/images/about/mhark.jpg" data-lightbox="/images/about/mhark.jpg" alt="At the symposium of Mental Health Advancement for Refugees in Korea" loading="lazy"><figcaption>At the symposium of Mental Health Advancement for Refugees in Korea</figcaption></figure>
 <svg class="tl-arrow" viewBox="0 0 60 46" aria-hidden="true"><path d="M30 3 C 50 12, 10 22, 30 38" /><path d="M23 32 L30 40 L36 31" /></svg>
-<figure class="tl-photo tilt-r"><img src="/images/about/desk.jpg" alt="My desk at Dongjak Community Mental Health Center" loading="lazy"><figcaption>My desk at Dongjak Community Mental Health Center</figcaption></figure>
+<figure class="tl-photo tilt-r"><img src="/images/about/desk.jpg" data-lightbox="/images/about/desk.jpg" alt="My desk at Dongjak Community Mental Health Center" loading="lazy"><figcaption>My desk at Dongjak Community Mental Health Center</figcaption></figure>
 </aside>
 </div>
 <details class="about-more">
@@ -157,11 +158,11 @@ author_profile: true
 </section>
 <aside class="about-timeline tl-second" aria-label="More photos">
 <div class="tl-dots" aria-hidden="true"><span></span><span></span><span></span></div>
-<figure class="tl-photo tilt-l"><img src="/images/about/marathon.jpg" alt="Running a race in Seoul" loading="lazy"><figcaption>Running a race in Seoul</figcaption></figure>
+<figure class="tl-photo tilt-l"><img src="/images/about/marathon.jpg" data-lightbox="/images/about/marathon.jpg" alt="Running a race in Seoul" loading="lazy"><figcaption>Running a race in Seoul</figcaption></figure>
 <svg class="tl-arrow" viewBox="0 0 60 46" aria-hidden="true"><path d="M30 3 C 50 12, 10 22, 30 38" /><path d="M23 32 L30 40 L36 31" /></svg>
-<figure class="tl-photo tilt-r"><img src="/images/about/sydney.jpg" alt="Running in Sydney!" loading="lazy"><figcaption>Running in Sydney!</figcaption></figure>
+<figure class="tl-photo tilt-r"><img src="/images/about/sydney.jpg" data-lightbox="/images/about/sydney.jpg" alt="Running in Sydney!" loading="lazy"><figcaption>Running in Sydney!</figcaption></figure>
 <div class="tl-dots" aria-hidden="true"><span></span><span></span><span></span></div>
-<figure class="tl-photo tilt-l"><img src="/images/about/hands.jpg" alt="Hands raised together: we rise by lifting others" loading="lazy"></figure>
+<figure class="tl-photo tilt-l"><img src="/images/about/hands.jpg" data-lightbox="/images/about/hands.jpg" alt="Hands raised together: we rise by lifting others" loading="lazy"></figure>
 </aside>
 
 </div>
@@ -169,3 +170,4 @@ author_profile: true
 
 </div>
 
+{% include lightbox.html soft=true %}

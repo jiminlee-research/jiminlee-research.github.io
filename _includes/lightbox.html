@@ -4,8 +4,11 @@
 .lb-overlay img { max-width:100%; max-height:100%; border-radius:6px; box-shadow:0 8px 30px rgba(0,0,0,.4); }
 .lb-close { position:absolute; top:.8rem; right:1.2rem; color:#fff; font-size:2rem; line-height:1; background:none; border:0; cursor:pointer; }
 [data-lightbox] { cursor:zoom-in; }
+.lb-overlay.lb-soft { background:rgba(20,20,20,.45); }
+.lb-overlay.lb-soft img { max-width:min(460px,88vw); max-height:72vh; background:#fff; padding:8px 8px 10px; border-radius:4px; animation:lbpop .18s ease-out; }
+@keyframes lbpop { from { transform:scale(.85); opacity:0; } to { transform:scale(1); opacity:1; } }
 </style>
-<div class="lb-overlay" id="lb" aria-hidden="true"><button class="lb-close" aria-label="Close">&times;</button><img alt=""></div>
+<div class="lb-overlay{% if include.soft %} lb-soft{% endif %}" id="lb" aria-hidden="true"><button class="lb-close" aria-label="Close">&times;</button><img alt=""></div>
 <script>
 (function(){
   var lb=document.getElementById('lb'), img=lb.querySelector('img');
