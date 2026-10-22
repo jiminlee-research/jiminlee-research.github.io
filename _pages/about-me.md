@@ -148,7 +148,7 @@ author_profile: true
 <figure class="tl-photo tilt-l"><img src="/images/about/hs.jpg" data-lightbox="/images/about/hs.jpg" alt="Giving a speech at my high school commencement in the Philippines" loading="lazy"></figure>
 <svg class="tl-arrow" viewBox="0 0 60 46" aria-hidden="true"><path d="M30 3 C 50 12, 10 22, 30 38" /><path d="M23 32 L30 40 L36 31" /></svg>
 <figure class="tl-photo tilt-l tl-pair"><img src="/images/about/missouri-library.jpg" data-lightbox="/images/about/missouri-library.jpg" alt="Walking through the library stacks in college in Missouri" loading="lazy"><figcaption>College years in Missouri</figcaption></figure>
-<figure class="tl-photo tilt-r"><img src="/images/about/missouri.jpg" data-lightbox="/images/about/missouri.jpg" alt="Walking in the homecoming parade in Missouri" loading="lazy"><figcaption>Walking in the homecoming parade in Missouri</figcaption></figure>
+<figure class="tl-photo tilt-r"><img src="/images/about/missouri.jpg" data-lightbox="/images/about/missouri.jpg" alt="Walking in the homecoming parade in Missouri" loading="lazy"><figcaption>Walking in the homecoming parade!</figcaption></figure>
 <svg class="tl-arrow" viewBox="0 0 60 46" aria-hidden="true"><path d="M30 3 C 10 12, 50 22, 30 38" /><path d="M23 32 L30 40 L36 31" /></svg>
 <figure class="tl-photo tilt-l tl-pair"><img src="/images/about/germany1.jpg" data-lightbox="/images/about/germany1.jpg" alt="With friends during half a year in Germany" loading="lazy"></figure>
 <figure class="tl-photo tilt-r"><img src="/images/about/germany2.jpg" data-lightbox="/images/about/germany2.jpg" alt="Half a year in Germany" loading="lazy"><figcaption>Half a year in Germany</figcaption></figure>
