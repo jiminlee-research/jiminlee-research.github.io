@@ -43,7 +43,9 @@ I study how social experiences such as discrimination and stigma, whether on a p
 <div class="education-list">
 <div class="education-entry">
 <h3>Research Associate <span>(2026–Present)</span></h3>
-<p><a href="https://health.snu.ac.kr/en/%EB%B3%B4%EA%B1%B4%ED%99%98%EA%B2%BD%EC%97%B0%EA%B5%AC%EC%86%8C/">Institute of Health and Environment</a>, Seoul National University</p>
+<p>Institute of Health and Environment, Seoul National University</p>
+<p>Project: <a href="https://disepa.snu.ac.kr/page-in-english">DiSEPA Study</a></p>
+<p>PI: <a href="https://snu.elsevierpure.com/en/persons/seung-sup-kim/">Seung-Sup Kim</a></p>
 </div>
 </div>
 
