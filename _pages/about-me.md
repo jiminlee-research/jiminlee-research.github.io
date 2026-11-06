@@ -22,7 +22,7 @@ author_profile: true
 
 .about-hero h1 {
   color: #1683e8;
-  font-size: 1.85rem;
+  font-size: 1.665rem;
   margin: 0;
 }
 
@@ -32,7 +32,7 @@ author_profile: true
 
 .about-section h2 {
   color: #303236;
-  font-size: 1.22rem;
+  font-size: 1.098rem;
   border-bottom: 1px solid #e5e7eb;
   padding-bottom: .55rem;
   margin-bottom: 1.4rem;
@@ -41,28 +41,28 @@ author_profile: true
 
 .about-section h3 {
   color: #303236;
-  font-size: 1.15rem;
+  font-size: 1.035rem;
   margin: 2.5rem 0 1rem;
 }
 
 .about-section p {
   color: #44484d;
-  font-size: .86rem;
+  font-size: .774rem;
   line-height: 1.85;
   margin: 0 0 1.2rem;
 }
 
 @media (max-width: 800px) {
   .about-hero h1 {
-    font-size: 1.8rem;
+    font-size: 1.62rem;
   }
 
   .about-section h2 {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
 
   .about-section p {
-    font-size: .84rem;
+    font-size: .756rem;
     line-height: 1.8;
   }
 }
@@ -74,7 +74,7 @@ author_profile: true
 .about-timeline { display:flex; flex-direction:column; align-items:center; padding-top:2.6rem; }
 .tl-photo { display:block !important; margin:0; width:112px; position:relative; background:#fff; padding:5px 5px 6px; box-shadow:0 2px 8px rgba(0,0,0,.13); border-radius:3px; }
 .tl-photo img { transition:transform .15s; width:100%; display:block; border-radius:2px; }
-.tl-photo figcaption { font-family:'Indie Flower',cursive; font-size:.62rem; line-height:1.2; color:#4b5563; text-align:center !important; width:100%; margin-top:.35rem; }
+.tl-photo figcaption { font-family:'Indie Flower',cursive; font-size:.558rem; line-height:1.2; color:#4b5563; text-align:center !important; width:100%; margin-top:.35rem; }
 .tl-photo.tl-pair { margin-bottom:-14px; z-index:1; }
 .tl-photo.tl-pair + .tl-photo { z-index:2; }
 .tl-photo.tl-pair:has(figcaption) { margin-bottom:.4rem; }
@@ -102,12 +102,12 @@ author_profile: true
 .tl-photo img:hover { transform:scale(1.03); }
 .more-card { display:flex; align-items:center; gap:.6rem; padding:.2rem 0 .55rem; margin:0 0 1.4rem; border-bottom:1px solid #e5e7eb; }
 .about-more > summary:hover .more-title, .about-more > summary:hover .more-icon { color:#1683e8; }
-.more-emoji { font-size:1.3rem; line-height:1; animation:wave 2.4s ease-in-out infinite; transform-origin:50% 80%; }
+.more-emoji { font-size:1.17rem; line-height:1; animation:wave 2.4s ease-in-out infinite; transform-origin:50% 80%; }
 @keyframes wave { 0%,60%,100% { transform:rotate(0); } 10%,30% { transform:rotate(-12deg); } 20%,40% { transform:rotate(12deg); } }
 .more-text { display:flex; flex-direction:column; }
-.more-title { font-weight:700; font-size:1.22rem; color:#303236; transition:color .15s; }
-.more-sub { font-size:.78rem; color:#5f6368; }
-.more-icon { margin-left:auto; color:#9ca3af; font-size:1.3rem; line-height:1; transition:transform .2s; flex-shrink:0; }
+.more-title { font-weight:700; font-size:1.098rem; color:#303236; transition:color .15s; }
+.more-sub { font-size:.702rem; color:#5f6368; }
+.more-icon { margin-left:auto; color:#9ca3af; font-size:1.17rem; line-height:1; transition:transform .2s; flex-shrink:0; }
 .about-more[open] .more-icon { transform:rotate(45deg); }
 .about-more[open] .more-sub { visibility:hidden; height:0; }
 .tl-scatter .tl-photo { margin-bottom:-6px; }
@@ -115,6 +115,7 @@ author_profile: true
 .tl-scatter .tl-photo:nth-of-type(2) { transform:translateX(16px) rotate(3.5deg); z-index:2; }
 .tl-scatter .tl-photo:nth-of-type(3) { transform:translateX(-8px) rotate(-2.5deg); z-index:3; }
 @media (max-width:900px){ .tl-scatter .tl-photo { transform:none !important; margin-bottom:0; } }
+.about-page { font-size: .9em; }
 </style>
 <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 
