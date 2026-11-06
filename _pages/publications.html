@@ -48,10 +48,10 @@ author_profile: true
 .ri-card p { text-align:center; font-size:.704rem; color:#5f6368; margin:0; line-height:1.55; }
 .pub-group { display:flex; align-items:center; gap:.5rem; font-weight:700; }
 .pub-body { max-width:720px; }
-.pub-body { padding-left:1rem; }
+.pub-body { padding-left:2.1rem; }
 .pub-title { position:relative; }
-.pub-title::before { content:""; position:absolute; left:-1rem; top:.62em; width:.38rem; height:.38rem; border-radius:1px; background:#1683e8; }
-.pub-item { max-width:calc(720px + 1rem); }
+.pub-num { position:absolute; left:-2.1rem; top:.1em; font-size:.78em; font-weight:700; color:#1683e8; }
+.pub-item { max-width:calc(720px + 2.1rem); }
 #lb.lb-soft img { max-width:min(900px,80vw); max-height:80vh; }
 .pub-figure img { transition:transform .15s, box-shadow .15s; }
 .pub-figure img:hover { transform:scale(1.03); }
@@ -80,6 +80,7 @@ author_profile: true
 {% assign groups = "journal|Peer-Reviewed Publications,wip|Work in Progress,presentation|Conference Presentations" | split: "," %}
 {% for g in groups %}
 {% assign key = g | split: "|" | first %}
+{% if key == "journal" %}{% assign pre = "J" %}{% elsif key == "wip" %}{% assign pre = "M" %}{% else %}{% assign pre = "C" %}{% endif %}
 {% assign label = g | split: "|" | last %}
 {% assign items = all | where: "type", key %}
 {% if items.size > 0 %}
@@ -88,7 +89,7 @@ author_profile: true
 {% for p in items %}
 <div class="pub-item" data-selected="{% if p.selected %}true{% else %}false{% endif %}">
 <div class="pub-body">
-<p class="pub-title">{{ p.title }}</p>
+<p class="pub-title"><span class="pub-num">{{ pre }}{{ forloop.index }}</span>{{ p.title }}</p>
 <p class="pub-authors">{% for a in p.authors %}{% if a contains "Lee, J." %}<span class="me">{{ a }}</span>{% else %}{{ a }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% if p.note == "In Korean" %} (In Korean){% endif %}</p>
 {% if p.venue %}<p class="pub-venue">{{ p.venue }}{% if p.year %}, {{ p.year }}{% endif %}{% if p.note and p.note != "In Korean" %} <span class="pub-tag">({{ p.note }})</span>{% endif %}</p>{% elsif p.note and p.note != "In Korean" %}<p class="pub-venue"><span class="pub-tag" style="margin-left:0">({{ p.note }})</span></p>{% endif %}
 {% if p.links %}<div class="pub-links">{% for l in p.links %}<a href="{{ l.url }}" target="_blank" rel="noopener"><i class="fa-solid fa-file-lines" aria-hidden="true" style="margin-right:.35em"></i>{{ l.label }}</a>{% endfor %}</div>{% endif %}
