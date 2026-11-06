@@ -30,7 +30,7 @@ author_profile: true
 .pub-tile small { font-size:.75rem; opacity:.9; margin-top:.25rem; }
 .pub-tile-presentation { background:linear-gradient(135deg,#0f766e,#34a99a); }
 .pub-tile-wip { background:linear-gradient(135deg,#6b7280,#9ca3af); }
-.pub-tag { display:inline-block; font-weight:400; font-size:.75rem; color:#6b7280; border:1px solid #d1d5db; border-radius:10px; padding:0 .45rem; margin-left:.3rem; }
+.pub-tag { font-weight:400; font-size:.8rem; color:#9ca3af; margin-left:.25rem; }
 @media (max-width:700px){ .pub-tile{width:100%;height:70px;} }
 .pub-thumb img:hover { box-shadow:0 4px 14px rgba(0,0,0,.15); }
 .pub-item { display:block; padding-bottom:1.6rem; border-bottom:1px dashed #e5e7eb; }
@@ -76,7 +76,7 @@ author_profile: true
 <div class="pub-body">
 <p class="pub-title">{{ p.title }}</p>
 <p class="pub-authors">{% for a in p.authors %}{% if a contains "Lee, J." %}<span class="me">{{ a }}</span>{% else %}{{ a }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
-{% if p.venue %}<p class="pub-venue">{{ p.venue }}{% if p.year %}, {{ p.year }}{% endif %}{% if p.note %} <span class="pub-tag">{{ p.note }}</span>{% endif %}</p>{% elsif p.note %}<p class="pub-venue"><span class="pub-tag" style="margin-left:0">{{ p.note }}</span></p>{% endif %}
+{% if p.venue %}<p class="pub-venue">{{ p.venue }}{% if p.year %}, {{ p.year }}{% endif %}{% if p.note %} <span class="pub-tag">({{ p.note }})</span>{% endif %}</p>{% elsif p.note %}<p class="pub-venue"><span class="pub-tag" style="margin-left:0">({{ p.note }})</span></p>{% endif %}
 {% if p.links %}<div class="pub-links">{% for l in p.links %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }}</a>{% endfor %}</div>{% endif %}
 {% if p.image %}<div class="pub-figure"><img src="{{ p.image | relative_url }}" alt="Research summary: {{ p.title | escape }}" data-lightbox="{{ p.image | relative_url }}"></div>{% endif %}
 </div>
