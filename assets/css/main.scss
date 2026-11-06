@@ -140,7 +140,9 @@
 
 /* Justify body text on all pages */
 .page__content p,
-.page__content li {
+.page__content li,
+.archive p,
+.archive li {
   text-align: justify;
   hyphens: auto;
 }
