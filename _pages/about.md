@@ -30,6 +30,8 @@ author_profile: true
 }
 .page__content > p { font-size: .88rem; line-height: 1.8; }
 .page__content { max-width:760px; }
+.education-entry a { color:inherit; text-decoration:underline; text-decoration-color:#c3c7cc; text-underline-offset:3px; }
+.education-entry a:hover { color:#1683e8; text-decoration-color:#1683e8; }
 </style>
 
 <div class="home-welcome">Welcome!</div>
