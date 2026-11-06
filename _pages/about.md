@@ -29,6 +29,7 @@ author_profile: true
   color: #44484d;
 }
 .page__content > p { font-size: .88rem; line-height: 1.8; }
+.page__content { max-width:760px; }
 </style>
 
 <div class="home-welcome">Welcome!</div>
