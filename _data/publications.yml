@@ -12,7 +12,7 @@
   year: 2026
   selected: true
   links:
-    - label: Paper
+    - label: Full Text
       url: https://doi.org/10.1177/00220426261475115
 
 - type: journal
@@ -24,7 +24,7 @@
   year: 2024
   selected: true
   links:
-    - label: Paper
+    - label: Full Text
       url: https://doi.org/10.3390/children11121554
 
 - type: journal
@@ -37,7 +37,7 @@
   note: "In Korean"
   selected: true
   links:
-    - label: Paper
+    - label: Full Text
       url: https://doi.org/10.38082/SWPR.2024.21.03.123
 
 - type: journal

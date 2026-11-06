@@ -86,7 +86,7 @@ author_profile: true
 <p class="pub-title">{{ p.title }}</p>
 <p class="pub-authors">{% for a in p.authors %}{% if a contains "Lee, J." %}<span class="me">{{ a }}</span>{% else %}{{ a }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% if p.note == "In Korean" %} (In Korean){% endif %}</p>
 {% if p.venue %}<p class="pub-venue">{{ p.venue }}{% if p.year %}, {{ p.year }}{% endif %}{% if p.note and p.note != "In Korean" %} <span class="pub-tag">({{ p.note }})</span>{% endif %}</p>{% elsif p.note and p.note != "In Korean" %}<p class="pub-venue"><span class="pub-tag" style="margin-left:0">({{ p.note }})</span></p>{% endif %}
-{% if p.links %}<div class="pub-links">{% for l in p.links %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }}</a>{% endfor %}</div>{% endif %}
+{% if p.links %}<div class="pub-links">{% for l in p.links %}<a href="{{ l.url }}" target="_blank" rel="noopener"><i class="fa-solid fa-file-lines" aria-hidden="true" style="margin-right:.35em"></i>{{ l.label }}</a>{% endfor %}</div>{% endif %}
 {% if p.image %}<div class="pub-figure"><img src="{{ p.image | relative_url }}" alt="Research summary: {{ p.title | escape }}" data-lightbox="{{ p.image | relative_url }}"></div>{% endif %}
 </div>
 </div>
