@@ -16,6 +16,18 @@
       url: https://doi.org/10.1177/00220426261475115
 
 - type: journal
+  title: "Game-based digital interventions for enhancing positive development and addressing substance use in adolescents: A systematic review"
+  image: /images/pubs/game-based-sr.jpg
+  authors: ["Lee, S.", "Kim, J.", "Bockhold, S.", "Lee, J.", "Chun, J.", "Yu, M."]
+  venue: "Children, 11(12), Article 1554"
+  short: "Children"
+  year: 2024
+  selected: true
+  links:
+    - label: Paper
+      url: https://doi.org/10.3390/children11121554
+
+- type: journal
   title: "Effect of coping strategies for family conflict on social isolation of young adults: Focusing on mediated effect of self-esteem"
   image: /images/pubs/family-conflict-isolation.jpg
   authors: ["Lee, J.", "Kim, J."]
@@ -27,18 +39,6 @@
   links:
     - label: Paper
       url: https://doi.org/10.38082/SWPR.2024.21.03.123
-
-- type: journal
-  title: "Game-based digital interventions for enhancing positive development and addressing substance use in adolescents: A systematic review"
-  image: /images/pubs/game-based-sr.jpg
-  authors: ["Lee, S.", "Kim, J.", "Bockhold, S.", "Lee, J.", "Chun, J.", "Yu, M."]
-  venue: "Children, 11(12), Article 1554"
-  short: "Children"
-  year: 2024
-  selected: true
-  links:
-    - label: Paper
-      url: https://doi.org/10.3390/children11121554
 
 - type: journal
   title: "Toward a life course grounded in crip time: An essay on social policy principles for persons with developmental disabilities experiencing premature aging"
