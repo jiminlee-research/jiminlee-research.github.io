@@ -30,8 +30,8 @@ author_profile: true
 }
 .page__content > p { font-size: .88rem; line-height: 1.8; }
 .page__content { max-width:760px; }
-.education-entry a { color:inherit; text-decoration:underline; text-decoration-color:#c3c7cc; text-underline-offset:3px; }
-.education-entry a:hover { color:#1683e8; text-decoration-color:#1683e8; }
+.education-entry a { color:inherit; text-decoration:none; }
+.education-entry a:hover { color:#1683e8; }
 </style>
 
 <div class="home-welcome">Welcome!</div>
@@ -39,6 +39,8 @@ author_profile: true
 I am Jimin, a research associate at the Institute of Health and Environment at Seoul National University. My research focuses on mental health and health disparities among marginalized populations and the social conditions that shape them, with particular attention to access to behavioral health services.
 
 I study how social experiences such as discrimination and stigma, whether on a personal or systemic level, contribute to mental health inequities and adverse behavioral health outcomes, and how organizational and policy conditions keep stigmatized groups from reaching the care they need. This interest has grown out of my research on young adults' social isolation and substance use, sexual and gender minority young adults' mental health service use, and disability policy. My perspective is also shaped by working directly with refugees and suicide-loss survivors, which deepened my understanding of how stigma, trauma, and social exclusion impact both their mental health and access to services. **I aim to develop and evaluate rights-based, evidence-informed interventions and policies that address social conditions underlying health inequities and help build more equitable healthcare systems.**
+
+Please don't hesitate to get in touch if you'd like to talk about any of this!
 
 ## Research Position
 
