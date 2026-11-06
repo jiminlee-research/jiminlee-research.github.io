@@ -4,6 +4,15 @@
 # image: optional thumbnail path (e.g. /images/pubs/xxx.png). Without it, a journal-name tile is shown.
 
 - type: journal
+  title: "Toward a life course grounded in crip time: An essay on social policy principles for persons with developmental disabilities experiencing premature aging"
+  authors: ["Ryu, H.", "Lee, J.", "Kang, M.", "Kim, S."]
+  venue: "Korean Social Policy"
+  short: "Korean Soc Policy"
+  year: "In press"
+  note: "In Korean"
+  selected: true
+
+- type: journal
   title: "Gender differences in attitudes towards drug use among South Korean college students: A latent class analysis"
   image: /images/pubs/drug-attitudes-lca.jpg
   authors: ["Lee, S.", "Chun, J.", "Lee, J."]
@@ -58,6 +67,18 @@
   note: "Poster"
 
 - type: wip
-  title: "Mental health service use among sexual and gender minority young adults: Barriers and facilitators"
+  title: "Mental health service use among sexual and gender minority young adults in South Korea: Barriers and facilitators"
   authors: ["Lee, J."]
   short: "In progress"
+
+- type: wip
+  title: "Premature aging among persons with developmental disabilities: A qualitative meta-synthesis of experiences and support needs"
+  authors: ["Ryu, H.", "Kang, M.", "Lee, J.", "Kim, S."]
+  short: "In progress"
+  note: "In Korean"
+
+- type: wip
+  title: "Beyond employment: Retirement support for adults aging with developmental disabilities in Korea"
+  authors: ["Kang, M.", "Ryu, H.", "Lee, J.", "Kim, S."]
+  short: "In progress"
+  note: "In Korean"
