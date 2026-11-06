@@ -4,15 +4,6 @@
 # image: optional thumbnail path (e.g. /images/pubs/xxx.png). Without it, a journal-name tile is shown.
 
 - type: journal
-  title: "Toward a life course grounded in crip time: An essay on social policy principles for persons with developmental disabilities experiencing premature aging"
-  authors: ["Ryu, H.", "Lee, J.", "Kang, M.", "Kim, S."]
-  venue: "Korean Social Policy"
-  short: "Korean Soc Policy"
-  year: "In press"
-  note: "In Korean"
-  selected: true
-
-- type: journal
   title: "Gender differences in attitudes towards drug use among South Korean college students: A latent class analysis"
   image: /images/pubs/drug-attitudes-lca.jpg
   authors: ["Lee, S.", "Chun, J.", "Lee, J."]
@@ -49,6 +40,15 @@
   links:
     - label: Paper
       url: https://doi.org/10.3390/children11121554
+
+- type: journal
+  title: "Toward a life course grounded in crip time: An essay on social policy principles for persons with developmental disabilities experiencing premature aging"
+  authors: ["Ryu, H.", "Lee, J.", "Kang, M.", "Kim, S."]
+  venue: "Korean Social Policy"
+  short: "Korean Soc Policy"
+  year: "In press"
+  note: "In Korean"
+  selected: true
 
 - type: presentation
   title: "A global systematic review of digital game-based strategies targeting adolescent substance use"
