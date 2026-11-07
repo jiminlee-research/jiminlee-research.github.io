@@ -49,7 +49,7 @@ Please don't hesitate to get in touch if you'd like to talk about any of this!
 <h3>Research Associate <span>(2026–Present)</span></h3>
 <p>Institute of Health and Environment, Seoul National University</p>
 <p>Project: <a href="https://disepa.snu.ac.kr/page-in-english">DiSEPA Study</a></p>
-<p>PI: Seung-Sup Kim</p>
+<p>PI: <a href="https://snu.elsevierpure.com/en/persons/seung-sup-kim/">Seung-Sup Kim</a></p>
 </div>
 </div>
 
