@@ -14,8 +14,10 @@ main:
   - title: "Research"
     url: /publications/
 
-  - title: "CV"
-    url: /cv/
+  # CV page is hidden from the menu but still live at /cv/.
+  # To show it again, uncomment the two lines below.
+  # - title: "CV"
+  #   url: /cv/
 
   - title: "About Me"
     url: /about-me/
