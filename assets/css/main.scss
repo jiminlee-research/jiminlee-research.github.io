@@ -147,10 +147,18 @@
   hyphens: auto;
 }
 
-/* Same page title size on every page (matches About Me) */
+/* Same page title size and title-to-first-heading gap on every page */
+.page__title:empty { display:none; }
 .page__title,
 .home-welcome,
 .about-page .about-hero h1 {
-  font-size: 2rem !important;
+  font-size: 1.8rem !important;
   font-weight: 700 !important;
+  line-height: 1.15 !important;
 }
+.page__title,
+.about-page .about-hero h1 { margin: 0 !important; }
+.about-page .about-hero { padding: 0 0 1.25rem !important; margin: 0 0 2.4rem !important; }
+.about-page .about-hero + .about-layout .about-section > h2:first-child { margin-top: 0 !important; }
+.archive .ri-head { margin-top: 3.65rem !important; }
+.archive .cv-wrap > .cv-h:first-child { margin-top: 3.65rem !important; }
