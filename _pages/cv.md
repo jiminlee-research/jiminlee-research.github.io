@@ -5,23 +5,86 @@ permalink: /cv/
 author_profile: true
 ---
 
-<p style="font-size:1rem; color:#5f6368;">
-  My curriculum vitae will be available here shortly.
-</p>
+<style>
+.page__content, .archive { max-width:760px; }
+.cv-h { font-size:1.05rem; color:#1e3a5f; text-transform:uppercase; letter-spacing:.04em; border-bottom:1px solid #e5e7eb; padding-bottom:.35rem; margin:2.2rem 0 1rem; }
+.cv-h:first-of-type { margin-top:.4rem; }
+.cv-h3 { font-size:.9rem; color:#303236; margin:1rem 0 .5rem; }
+.cv-entry { margin:0 0 1.1rem; }
+.cv-row { display:flex; justify-content:space-between; gap:1rem; align-items:baseline; }
+.cv-title { font-weight:700; font-size:.9rem; color:#303236; }
+.cv-date, .cv-place { font-size:.8rem; color:#6b7280; white-space:nowrap; }
+.cv-sub { font-size:.84rem; color:#44484d; margin-top:.1rem; }
+.cv-entry ul { margin:.35rem 0 0 1.1rem; padding:0; }
+.cv-entry li, .cv-pubs li { font-size:.84rem; line-height:1.65; color:#44484d; margin:0 0 .3rem; }
+.cv-pubs { margin:0 0 .6rem 1.3rem; padding:0; }
+.cv-pubs li { margin-bottom:.55rem; }
+.cv-plain { font-size:.84rem; line-height:1.7; color:#44484d; margin:0; text-align:left !important; }
+.cv-note { font-size:.78rem; color:#6b7280; margin:0 0 .5rem; }
+.cv-wrap a { color:inherit; text-decoration:none; border-bottom:1px solid #d1d5db; }
+.cv-wrap a:hover { color:#1683e8; border-bottom-color:#1683e8; }
+.cv-wrap li, .cv-wrap p { hyphens:manual; text-align:left !important; }
+@media (max-width:600px){ .cv-row { flex-direction:column; gap:0; } .cv-date, .cv-place { white-space:normal; } }
+</style>
 
-<!--
-When the PDF is uploaded later, replace the paragraph above with:
+<div class="cv-wrap">
 
-<iframe
-  src="/files/CV_Jimin_Lee.pdf"
-  width="100%"
-  height="1000"
-  style="border:0;">
-</iframe>
+<h2 class="cv-h">Education</h2>
+<div class="cv-entry"><div class="cv-row"><span class="cv-title">Ewha Womans University</span><span class="cv-date">Mar 2023 – Feb 2025</span></div><div class="cv-row cv-sub"><span>M.A., Social Welfare | Advisor: <a href="https://www.ewha.ac.kr/ewhaen/professor/info.do?mode=view&amp;pId=vE9%2F7cW3ZJ6XHRoYZGt%2Bhg%3D%3D">JongSerl Chun</a> | GPA: 3.93/4.00</span><span class="cv-place">Seoul, Korea</span></div></div>
+<div class="cv-entry"><div class="cv-row"><span class="cv-title">Ewha Womans University</span><span class="cv-date">Mar 2020 – Feb 2023</span></div><div class="cv-row cv-sub"><span>B.A., Social Welfare, with honors</span><span class="cv-place">Seoul, Korea</span></div></div>
+<div class="cv-entry"><div class="cv-row"><span class="cv-title">Philipps-Universität Marburg</span><span class="cv-date">Oct 2021 – Mar 2022</span></div><div class="cv-row cv-sub"><span>Visiting Student</span><span class="cv-place">Marburg, Germany</span></div></div>
+<div class="cv-entry"><div class="cv-row"><span class="cv-title">University of Missouri–Columbia</span><span class="cv-date">Aug 2017 – May 2019</span></div><div class="cv-row cv-sub"><span>Coursework in Human Development and Family Science</span><span class="cv-place">MO, USA</span></div></div>
 
-<p>
-  <a href="/files/CV_Jimin_Lee.pdf" target="_blank" rel="noopener">
-    Download CV (PDF)
-  </a>
-</p>
--->
+<h2 class="cv-h">Research Interests</h2>
+<p class="cv-plain">Health and Mental Health Disparities, Mental Health Services, Behavioral Health, Minority Stress and Trauma, Young Adults, Sexual and Gender Minority (SGM), Immigrant and Racial/Ethnic Minority, Community-Engaged Research, Mixed Methods</p>
+
+<h2 class="cv-h">Publications</h2>
+<h3 class="cv-h3">Peer-Reviewed Publications</h3>
+<ol class="cv-pubs"><li>Ryu, H., <b>Lee, J.</b>, Kang, M., &amp; Kim, S. (in press). Toward a life course grounded in crip time: An essay on social policy principles for persons with developmental disabilities experiencing premature aging. <i>Korean Social Policy</i>. [in Korean]</li><li>Lee, S., Chun, J., &amp; <b>Lee, J.</b> (2026). Gender differences in attitudes towards drug use among South Korean college students: A latent class analysis. <i>Journal of Drug Issues</i>. Advance online publication. <a href="https://doi.org/10.1177/00220426261475115">https://doi.org/10.1177/00220426261475115</a></li><li><b>Lee, J.</b>, &amp; Kim, J. (2024). Effect of coping strategies for family conflict on social isolation of young adults: Focusing on mediated effect of self-esteem. <i>Social Work Practice &amp; Research, 21</i>(3), 123–151. <a href="https://doi.org/10.38082/SWPR.2024.21.03.123">https://doi.org/10.38082/SWPR.2024.21.03.123</a> [in Korean]</li><li>Lee, S., Kim, J., Bockhold, S., <b>Lee, J.</b>, Chun, J., &amp; Yu, M. (2024). Game-based digital interventions for enhancing positive development and addressing substance use in adolescents: A systematic review. <i>Children, 11</i>(12), Article 1554. <a href="https://doi.org/10.3390/children11121554">https://doi.org/10.3390/children11121554</a></li></ol>
+<h3 class="cv-h3">Work in Progress</h3>
+<ol class="cv-pubs" start="5"><li><b>Lee, J.</b> Mental health service use among sexual and gender minority young adults in South Korea: Barriers and facilitators.</li><li>Ryu, H., Kang, M., <b>Lee, J.</b>, &amp; Kim, S. Premature aging among persons with developmental disabilities: A qualitative meta-synthesis of experiences and support needs. [in Korean]</li><li>Kang, M., Ryu, H., <b>Lee, J.</b>, &amp; Kim, S. Beyond employment: Retirement support for adults aging with developmental disabilities in Korea. [in Korean]</li></ol>
+
+<h2 class="cv-h">Conference Presentations</h2>
+<p class="cv-note">* Presenter</p>
+<ol class="cv-pubs"><li>Lee, S.*, Kim, J., Bockhold, S., <b>Lee, J.</b>, Chun, J., &amp; Yu, M. (Jan 2026). A global systematic review of digital game-based strategies targeting adolescent substance use. Poster presentation at Society for Social Work and Research (SSWR). Washington, DC.</li><li>Lee, S., Chun, J., &amp; <b>Lee, J.*</b> (Nov 2024). Latent class analysis of attitudes towards drug use and well-being among South Korean young adults. Poster presentation at European Public Health Conference (EPH). Lisbon, Portugal.</li></ol>
+
+<h2 class="cv-h">Research Positions</h2>
+<div class="cv-entry"><div class="cv-row"><span class="cv-title">Research Associate</span><span class="cv-date">Jun 2026 – Present</span></div><div class="cv-row cv-sub"><span><i>Institute of Health and Environment, Seoul National University</i></span><span class="cv-place"></span></div><ul><li>Examine support needs and policy responses to premature aging among people with developmental disabilities as part of the <a href="https://disepa.snu.ac.kr/page-in-english">DiSEPA Study</a>, a cohort study on the social environment and health of people with disabilities (PI: <a href="https://snu.elsevierpure.com/en/persons/seung-sup-kim/">Seung-Sup Kim</a>).</li><li>Contribute to the development of a survey instrument on healthcare utilization among people with developmental disabilities.</li></ul></div>
+<div class="cv-entry"><div class="cv-row"><span class="cv-title">Research Assistant</span><span class="cv-date">Mar 2023 – Feb 2025</span></div><div class="cv-row cv-sub"><span><i>Social Welfare Research Institute, Ewha Womans University</i></span><span class="cv-place"></span></div><ul><li>Supported textbook development on substance abuse social work, contributing to drafting, revision, and research integration throughout a two-year project (Supervisor: JongSerl Chun).</li><li>Synthesized research evidence to prepare materials for academic and policy forums, including National Assembly briefings.</li></ul></div>
+
+<h2 class="cv-h">Research Projects</h2>
+<div class="cv-entry"><div class="cv-row"><span class="cv-title">SGM Young Adults Mental Health Service Barriers and Facilitators</span><span class="cv-date">2026</span></div><div class="cv-row cv-sub"><span><i>Independent Researcher</i></span><span class="cv-place"></span></div><ul><li>Designed the study, secured IRB approval (Seoul National University), and conducted 16 semi-structured interviews.</li><li>Analyzed interview data using Levesque’s patient-centred access framework and drafted the manuscript (finalizing).</li></ul></div>
+<div class="cv-entry"><div class="cv-row"><span class="cv-title">Social Policy Principles for Premature Aging in Developmental Disabilities</span><span class="cv-date">2026</span></div><div class="cv-row cv-sub"><span><i>Co-Researcher | Seoul National University</i></span><span class="cv-place"></span></div><ul><li>Performed policy analysis on support for older adults and an extensive literature review.</li><li>Co-authored the main arguments and conclusion of an essay applying a crip time perspective.</li></ul></div>
+<div class="cv-entry"><div class="cv-row"><span class="cv-title">Premature Aging in Developmental Disabilities: Experiences and Support Needs</span><span class="cv-date">2026</span></div><div class="cv-row cv-sub"><span><i>Co-Researcher | Seoul National University</i></span><span class="cv-place"></span></div><ul><li>Conceptualized the study; conducting a systematic search and thematic synthesis of qualitative studies on experiences and support needs of adults aging with developmental disabilities.</li></ul></div>
+<div class="cv-entry"><div class="cv-row"><span class="cv-title">Retirement Support for Persons with Developmental Disabilities</span><span class="cv-date">2026</span></div><div class="cv-row cv-sub"><span><i>Co-Researcher | Seoul National University</i></span><span class="cv-place"></span></div><ul><li>Co-authoring the main text and analyzing international cases and Korean policies to identify intervention points for social participation after retirement.</li></ul></div>
+<div class="cv-entry"><div class="cv-row"><span class="cv-title">Evaluation of Welfare Outcomes among Children in Care</span><span class="cv-date">2025</span></div><div class="cv-row cv-sub"><span><i>Project Research Assistant | Ewha Womans University</i></span><span class="cv-place"></span></div><ul><li>Collected, cleaned, and coded survey and interview data for a longitudinal evaluation of protected children’s welfare outcomes commissioned by ChildFund Korea and Kyobo Life, coordinating with seven childcare facilities and five industry partners in Seoul.</li></ul></div>
+<div class="cv-entry"><div class="cv-row"><span class="cv-title">Latent Classes of Drug Use Attitudes Among Young Adults</span><span class="cv-date">2024</span></div><div class="cv-row cv-sub"><span><i>Co-Researcher | Ewha Womans University</i></span><span class="cv-place"></span></div><ul><li>Authored the introduction and theoretical background; co-authored the discussion.</li><li>Contributed to the analysis and interpretation of latent class and multivariate logistic regression results.</li></ul></div>
+<div class="cv-entry"><div class="cv-row"><span class="cv-title">Game-Based Digital Interventions for Adolescent Substance Use</span><span class="cv-date">2024</span></div><div class="cv-row cv-sub"><span><i>Co-Researcher | Ewha Womans University</i></span><span class="cv-place"></span></div><ul><li>Co-authored the introduction, theoretical background, and discussion in collaboration with faculty from the University of Missouri, the University of Maryland, and Ewha Womans University.</li><li>Conducted systematic screening following PRISMA (1,601 to 26 studies), extracted data, and synthesized findings on intervention effectiveness.</li></ul></div>
+<div class="cv-entry"><div class="cv-row"><span class="cv-title">Effects of Family Conflict Coping on Social Isolation of Young Adults</span><span class="cv-date">2024</span></div><div class="cv-row cv-sub"><span><i>Lead Researcher | Ewha Womans University</i></span><span class="cv-place"></span></div><ul><li>Designed and managed a quantitative study as first author.</li><li>Conducted mediation analysis using SPSS and led manuscript preparation.</li></ul></div>
+
+<h2 class="cv-h">Fellowships &amp; Scholarships</h2>
+<div class="cv-entry"><div class="cv-row"><span class="cv-title">M.A. Admission Scholarship for Academic Excellence</span><span class="cv-date">2023 – 2025</span></div><div class="cv-row cv-sub"><span><i>Ewha Womans University</i></span><span class="cv-place"></span></div><ul><li>Awarded full tuition for two years in recognition of outstanding undergraduate academic achievement.</li></ul></div>
+<div class="cv-entry"><div class="cv-row"><span class="cv-title">Merit-Based Graduate Research Fellowship</span><span class="cv-date">2023 – 2025</span></div><div class="cv-row cv-sub"><span><i>National Research Foundation of Korea</i></span><span class="cv-place"></span></div><ul><li>Selected for a two-year graduate research fellowship ($12,500) under the government-funded Brain Korea 21 program.</li></ul></div>
+<div class="cv-entry"><div class="cv-row"><span class="cv-title">Competitive Workshop Participation Grant</span><span class="cv-date">2024</span></div><div class="cv-row cv-sub"><span><i>National Research Foundation of Korea</i></span><span class="cv-place"></span></div><ul><li>Received travel funding ($390) to participate in a workshop on substance use in the U.S.</li></ul></div>
+
+<h2 class="cv-h">Professional Experience</h2>
+<div class="cv-entry"><div class="cv-row"><span class="cv-title">Dongjak District Community Mental Health Center (public)</span><span class="cv-date">Jun 2025 – Jan 2026</span></div><div class="cv-row cv-sub"><span><i>Full-time Social Worker</i></span><span class="cv-place">Seoul, Korea</span></div><ul><li>Provided case management and grief counseling to 80+ individuals bereaved by suicide, coordinating legal, financial, and peer-support services.</li><li>Supported suicide attempt survivors through individualized case management and conducted risk screenings and crisis phone counseling for community residents.</li></ul></div>
+<div class="cv-entry"><div class="cv-row"><span class="cv-title">Ewha Womans University Community Welfare Center</span><span class="cv-date">Sep 2022 – Dec 2022</span></div><div class="cv-row cv-sub"><span><i>Social Work Intern (160 hours)</i></span><span class="cv-place">Seoul, Korea</span></div><ul><li>Conducted hands-on interventions for underserved children and older adults, focusing on group-based programs.</li></ul></div>
+
+<h2 class="cv-h">Teaching &amp; Leadership</h2>
+<div class="cv-entry"><div class="cv-row"><span class="cv-title">Teaching Assistant | Introduction to Social Welfare</span><span class="cv-date">Spring 2024</span></div><div class="cv-row cv-sub"><span><i>Ewha Womans University</i></span><span class="cv-place">Seoul, Korea</span></div><ul><li>Provided instructional support and developed assessment materials.</li></ul></div>
+<div class="cv-entry"><div class="cv-row"><span class="cv-title">Child Education Mentor</span><span class="cv-date">Sep 2023 – Present</span></div><div class="cv-row cv-sub"><span><i>Dongmyung Child Welfare Institution (Residential Care Facility)</i></span><span class="cv-place">Seoul, Korea</span></div><ul><li>Conduct weekly one-on-one tutoring in mathematics and reading comprehension.</li></ul></div>
+<div class="cv-entry"><div class="cv-row"><span class="cv-title">Student Representative | U.S. Workshop on Substance Use Treatment and Policy</span><span class="cv-date">Jan 2024 – Feb 2024</span></div><div class="cv-row cv-sub"><span><i>Hosted by the University at Albany, SUNY</i></span><span class="cv-place">NY, USA</span></div><ul><li>Led communication for a team of 10 participants and coordinated program planning, site selection, and outreach.</li><li>Studied U.S. substance use policy and treatment systems through lectures and site visits to six community-based treatment and recovery facilities, the New York State Office of Addiction Services and Supports (OASAS), and Office of Mental Health (OMH).</li></ul></div>
+<div class="cv-entry"><div class="cv-row"><span class="cv-title">Co-Director of Activities | Missouri International Student Council</span><span class="cv-date">Aug 2018 – May 2019</span></div><div class="cv-row cv-sub"><span><i>University of Missouri–Columbia</i></span><span class="cv-place">MO, USA</span></div><ul><li>Organized regular cultural festivals and cross-cultural exchange events for international students.</li></ul></div>
+
+<h2 class="cv-h">Advocacy &amp; Community Engagement</h2>
+<div class="cv-entry"><div class="cv-row"><span class="cv-title">Volunteer Refugee Program Coordinator &amp; Case Worker</span><span class="cv-date">Mar 2026 – Aug 2026</span></div><div class="cv-row cv-sub"><span><i>Migration to Asia Peace (Refugee Support NGO)</i></span><span class="cv-place">Seoul, Korea</span></div><ul><li>Led the end-to-end design and delivery of a speaker program featuring 25 refugee speakers, including planning, organizing, hosting, facilitation, and outreach.</li><li>Provided case management for a refugee living with HIV and their child, coordinating access to medical care and support services.</li></ul></div>
+<div class="cv-entry"><div class="cv-row"><span class="cv-title">Volunteer Refugee Case Worker</span><span class="cv-date">Jun 2024 – Dec 2024</span></div><div class="cv-row cv-sub"><span><i>Migration to Asia Peace (Refugee Support NGO)</i></span><span class="cv-place">Seoul, Korea</span></div><ul><li>Provided Mental Health and Psychosocial Support (MHPSS) for a refugee family as a rehabilitation-therapy interpreter and case manager, assessing educational, legal, and financial needs and linking to resources.</li><li>Delivered biweekly case presentations to coordinate client support strategies.</li></ul></div>
+<div class="cv-entry"><div class="cv-row"><span class="cv-title">Residential Care Volunteer Activity Leader</span><span class="cv-date">Apr 2014 – Jun 2017</span></div><div class="cv-row cv-sub"><span><i>Duyan Ni Maria Children’s Home (Residential Care Facility)</i></span><span class="cv-place">Clark, Philippines</span></div><ul><li>Led weekly play activities for a group of 15–30 children in care.</li></ul></div>
+
+<h2 class="cv-h">Licensure &amp; Skills</h2>
+<p class="cv-plain"><b>Licensure:</b> Certified Social Worker, Ministry of Health and Welfare, Korea<br><b>Research &amp; Technical Tools:</b> R, SPSS, Mplus, LaTeX<br><b>Languages:</b> Korean (native), English (TOEFL iBT 5.5/6)</p>
+
+<h2 class="cv-h">Professional Membership</h2>
+<div class="cv-entry"><div class="cv-row"><span class="cv-title">Korean Association for LGBTQ+ and Queer Studies</span><span class="cv-date">2025 – Present</span></div></div>
+</div>
