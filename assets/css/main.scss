@@ -146,3 +146,11 @@
   text-align: justify;
   hyphens: auto;
 }
+
+/* Same page title size on every page (matches About Me) */
+.page__title,
+.home-welcome,
+.about-page .about-hero h1 {
+  font-size: 2rem !important;
+  font-weight: 700 !important;
+}
