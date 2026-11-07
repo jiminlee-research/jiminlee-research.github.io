@@ -8,7 +8,7 @@ author_profile: true
 <style>
 .cv-wrap { max-width:760px; }
 .cv-h { font-size:1.05rem; color:#1e3a5f; text-transform:uppercase; letter-spacing:.04em; border-bottom:1px solid #e5e7eb; padding-bottom:.35rem; margin:2.2rem 0 1rem; }
-.cv-h:first-of-type { margin-top:.4rem; }
+.cv-h:first-of-type { margin-top:2.6rem; }
 .cv-h3 { font-size:.9rem; color:#303236; margin:1rem 0 .5rem; }
 .cv-entry { margin:0 0 1.1rem; }
 .cv-row { display:flex; justify-content:space-between; gap:1rem; align-items:baseline; }
