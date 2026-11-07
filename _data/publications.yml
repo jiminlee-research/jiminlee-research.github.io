@@ -9,7 +9,6 @@
   authors: ["Lee, S.", "Chun, J.", "Lee, J."]
   venue: "Journal of Drug Issues"
   short: "J Drug Issues"
-  index: "SSCI"
   year: 2026
   selected: true
   links:
@@ -22,7 +21,6 @@
   authors: ["Lee, S.", "Kim, J.", "Bockhold, S.", "Lee, J.", "Chun, J.", "Yu, M."]
   venue: "Children, 11(12), Article 1554"
   short: "Children"
-  index: "SCIE"
   year: 2024
   selected: true
   links:
@@ -35,7 +33,6 @@
   authors: ["Lee, J.", "Kim, J."]
   venue: "Social Work Practice & Research, 21(3), 123–151"
   short: "SWPR"
-  index: "KCI"
   year: 2024
   note: "In Korean"
   selected: true
@@ -48,7 +45,6 @@
   authors: ["Ryu, H.", "Lee, J.", "Kang, M.", "Kim, S."]
   venue: "Korean Social Policy"
   short: "Korean Soc Policy"
-  index: "KCI"
   year: "In press"
   note: "In Korean"
   selected: true
