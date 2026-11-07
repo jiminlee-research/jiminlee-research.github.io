@@ -25,7 +25,7 @@ author_profile: true
 .cv-wrap a:hover { color:#1683e8; border-bottom-color:#1683e8; }
 .cv-wrap li, .cv-wrap p { hyphens:manual; text-align:left !important; }
 @media (max-width:600px){ .cv-row { flex-direction:column; gap:0; } .cv-date, .cv-place { white-space:normal; } }
-.cv-wrap { font-family:"Times New Roman", Times, "Nimbus Roman", "Liberation Serif", serif; }
+.cv-wrap, .cv-wrap h2, .cv-wrap h3, .cv-wrap b, .cv-wrap i { font-family:"Times New Roman", Times, "Nimbus Roman", "Liberation Serif", serif !important; }
 .cv-wrap .cv-title { font-size:1rem; }
 .cv-wrap .cv-sub, .cv-wrap .cv-entry li, .cv-wrap .cv-pubs li, .cv-wrap .cv-plain { font-size:.95rem; color:#303236; }
 .cv-wrap .cv-date, .cv-wrap .cv-place { font-size:.9rem; color:#44484d; }
