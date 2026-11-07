@@ -158,7 +158,7 @@ author_profile: true
 </aside>
 </div>
 <details class="about-more">
-<summary><div class="more-card"><span class="more-emoji">⏬</span><span class="more-text"><span class="more-title">Small Memorable Details</span></span><span class="more-icon" aria-hidden="true">+</span></div></summary>
+<summary><div class="more-card"><span class="more-emoji">⏬</span><span class="more-text"><span class="more-title">A Little More About Me</span></span><span class="more-icon" aria-hidden="true">+</span></div></summary>
 <div class="about-layout">
 <section class="about-section">
 
