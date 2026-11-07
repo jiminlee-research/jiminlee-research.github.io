@@ -57,11 +57,11 @@ author_profile: true
 .pub-figure img:hover { transform:scale(1.03); }
 .ri-card { transition:transform .15s, box-shadow .15s; }
 .ri-card:hover { transform:scale(1.03); box-shadow:0 4px 14px rgba(0,0,0,.08); }
-.pub-thumb { float:right; width:150px; margin:.2rem 0 .6rem 1.2rem; }
-.pub-thumb img { width:100%; display:block; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,.12); cursor:zoom-in; transition:transform .15s; }
-.pub-thumb img:hover { transform:scale(1.03); }
+.pub-photo { float:right; width:150px; margin:.2rem 0 .6rem 1.2rem; }
+.pub-photo img { width:100%; display:block; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,.12); cursor:zoom-in; transition:transform .15s; }
+.pub-photo img:hover { transform:scale(1.03); }
 .pub-body::after { content:""; display:table; clear:both; }
-@media (max-width:600px){ .pub-thumb { width:110px; } }
+@media (max-width:600px){ .pub-photo { width:110px; } }
 </style>
 
 <div class="ri-head"><h2>Research Interests</h2></div>
@@ -94,7 +94,7 @@ author_profile: true
 {% for p in items %}
 <div class="pub-item" data-selected="{% if p.selected %}true{% else %}false{% endif %}">
 <div class="pub-body">
-{% if p.image and p.image_size == "small" %}<div class="pub-thumb"><img src="{{ p.image | relative_url }}" alt="Photo: {{ p.title | escape }}" data-lightbox="{{ p.image | relative_url }}"></div>{% endif %}
+{% if p.image and p.image_size == "small" %}<div class="pub-photo"><img src="{{ p.image | relative_url }}" alt="Photo: {{ p.title | escape }}" data-lightbox="{{ p.image | relative_url }}"></div>{% endif %}
 <p class="pub-title"><span class="pub-num">{{ pre }}{{ forloop.index }}</span>{{ p.title }}</p>
 <p class="pub-authors">{% for a in p.authors %}{% if a contains "Lee, J." %}<span class="me">{{ a }}</span>{% else %}{{ a }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% if p.note == "In Korean" %} (In Korean){% endif %}</p>
 {% if p.venue %}<p class="pub-venue">{{ p.venue }}{% if p.year %}, {{ p.year }}{% endif %}{% if p.note and p.note != "In Korean" %} <span class="pub-tag">({{ p.note }})</span>{% endif %}</p>{% elsif p.note and p.note != "In Korean" %}<p class="pub-venue"><span class="pub-tag" style="margin-left:0">({{ p.note }})</span></p>{% endif %}
