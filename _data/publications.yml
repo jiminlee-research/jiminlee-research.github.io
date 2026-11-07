@@ -52,6 +52,7 @@
 - type: presentation
   title: "A global systematic review of digital game-based strategies targeting adolescent substance use"
   image: /images/pubs/sswr-game-poster-v2.jpg
+  image_size: match
   authors: ["Lee, S.*", "Kim, J.", "Bockhold, S.", "Lee, J.", "Chun, J.", "Yu, M."]
   venue: "Society for Social Work and Research (SSWR), Washington, DC"
   short: "SSWR"
