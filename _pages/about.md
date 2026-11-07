@@ -40,7 +40,7 @@ I am Jimin, a research associate at the Institute of Health and Environment at S
 
 I study how social experiences such as discrimination and stigma, whether on a personal or systemic level, contribute to mental health inequities and adverse behavioral health outcomes, and how organizational and policy conditions keep people affected by stigma from reaching the care they need. This interest has grown out of my research on young adults' social isolation and substance use, sexual and gender minority young adults' mental health service use, and disability policy. My perspective is also shaped by working directly with refugees and suicide-loss survivors, which deepened my understanding of how stigma, trauma, and social exclusion impact both their mental health and access to services. **I aim to develop and evaluate rights-based, evidence-informed interventions and policies that address social conditions underlying health inequities and help build more equitable healthcare systems.**
 
-Please don't hesitate to get in touch if you'd like to talk about any of my work.
+Please don't hesitate to get in touch if you'd like to talk about my work.
 
 ## Research Position
 
