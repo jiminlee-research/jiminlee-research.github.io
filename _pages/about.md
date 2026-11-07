@@ -67,10 +67,6 @@ Please don't hesitate to get in touch if you'd like to talk about my work.
 <p>Graduated with honors</p>
 </div>
 <div class="education-entry">
-<h3>Visiting Student <span>(2021–2022)</span></h3>
-<p>Philipps-Universität Marburg</p>
-</div>
-<div class="education-entry">
 <h3>University of Missouri–Columbia <span>(2017–2019)</span></h3>
 <p>Completed coursework through the second year in Human Development and Family Science</p>
 </div>
