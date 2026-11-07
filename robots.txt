@@ -1,0 +1,9 @@
+---
+layout: null
+sitemap: false
+---
+# Pages stay crawlable so search engines can read the noindex tag on each page.
+# Images and files are blocked so they never appear in image search.
+User-agent: *
+Disallow: /images/
+Disallow: /files/
