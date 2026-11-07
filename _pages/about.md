@@ -59,7 +59,7 @@ Please don't hesitate to get in touch if you'd like to talk about my work.
 <div class="education-entry">
 <h3>M.A. in Social Welfare <span>(2023–2025)</span></h3>
 <p><a href="https://sw.ewha.ac.kr/sw/intro/introduction.do">Ewha Womans University</a></p>
-<p>Supervisor: <a href="https://www.ewha.ac.kr/ewhaen/professor/info.do?mode=view&pId=vE9%2F7cW3ZJ6XHRoYZGt%2Bhg%3D%3D">Jonserl Chun</a></p>
+<p>Supervisor: <a href="https://www.ewha.ac.kr/ewhaen/professor/info.do?mode=view&pId=vE9%2F7cW3ZJ6XHRoYZGt%2Bhg%3D%3D">JongSerl Chun</a></p>
 </div>
 <div class="education-entry">
 <h3>B.A. in Social Welfare <span>(2020–2023)</span></h3>
