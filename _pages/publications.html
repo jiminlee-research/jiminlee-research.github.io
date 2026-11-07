@@ -77,7 +77,7 @@ author_profile: true
 
 <div id="pub-list">
 {% assign all = site.data.publications %}
-{% assign groups = "journal|Peer-Reviewed Publications,wip|Work in Progress,presentation|Conference Presentations" | split: "," %}
+{% assign groups = "journal|Peer-Reviewed Journal Articles,wip|Work in Progress,presentation|Conference Presentations" | split: "," %}
 {% for g in groups %}
 {% assign key = g | split: "|" | first %}
 {% if key == "journal" %}{% assign pre = "J" %}{% elsif key == "wip" %}{% assign pre = "M" %}{% else %}{% assign pre = "C" %}{% endif %}
