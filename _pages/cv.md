@@ -41,8 +41,6 @@ author_profile: true
 <div class="cv-entry"><div class="cv-row"><span class="cv-title">Philipps-Universität Marburg</span><span class="cv-date">Oct 2021 – Mar 2022</span></div><div class="cv-row cv-sub"><span>Visiting Student</span><span class="cv-place">Marburg, Germany</span></div></div>
 <div class="cv-entry"><div class="cv-row"><span class="cv-title">University of Missouri–Columbia</span><span class="cv-date">Aug 2017 – May 2019</span></div><div class="cv-row cv-sub"><span>Coursework in Human Development and Family Science</span><span class="cv-place">MO, USA</span></div></div>
 
-<h2 class="cv-h">Research Interests</h2>
-<p class="cv-plain">Mental Health and Health Disparities, Behavioral Health Services, Minority Stress and Trauma, Depression and Suicide Risk, Young Adults, Sexual and Gender Minority (SGM), Immigrant and Racial/Ethnic Minority, Community-Engaged Research, Mixed Methods</p>
 
 <h2 class="cv-h">Publications</h2>
 <h3 class="cv-h3">Peer-Reviewed Publications</h3>
