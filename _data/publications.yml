@@ -72,7 +72,10 @@
   venue: "European Public Health Conference (EPH), Lisbon, Portugal"
   short: "EPH"
   year: "Nov 2024"
-
+  note: "Abstract published in European Journal of Public Health, 34(Suppl 3)"
+  links:
+    - label: Abstract
+      url: https://doi.org/10.1093/eurpub/ckae144.2244
 - type: wip
   title: "Mental health service use among sexual and gender minority young adults in South Korea: Barriers and facilitators"
   role: "Independent Researcher"
