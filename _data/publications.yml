@@ -42,6 +42,7 @@
 
 - type: journal
   title: "Toward a life course grounded in crip time: An essay on social policy principles for persons with developmental disabilities experiencing premature aging"
+  role: "Co-Researcher | Seoul National University"
   authors: ["Ryu, H.", "Lee, J.", "Kang, M.", "Kim, S."]
   venue: "Korean Social Policy"
   short: "Korean Soc Policy"
@@ -69,17 +70,20 @@
 
 - type: wip
   title: "Mental health service use among sexual and gender minority young adults in South Korea: Barriers and facilitators"
+  role: "Independent Researcher"
   authors: ["Lee, J."]
   short: "In progress"
 
 - type: wip
   title: "Premature aging among persons with developmental disabilities: A qualitative meta-synthesis of experiences and support needs"
+  role: "Co-Researcher | Seoul National University"
   authors: ["Ryu, H.", "Kang, M.", "Lee, J.", "Kim, S."]
   short: "In progress"
   note: "In Korean"
 
 - type: wip
   title: "Beyond employment: Retirement support for adults aging with developmental disabilities in Korea"
+  role: "Co-Researcher | Seoul National University"
   authors: ["Kang, M.", "Ryu, H.", "Lee, J.", "Kim, S."]
   short: "In progress"
   note: "In Korean"

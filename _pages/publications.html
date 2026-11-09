@@ -60,6 +60,7 @@ author_profile: true
 .ri-card:hover { transform:scale(1.03); box-shadow:0 4px 14px rgba(0,0,0,.08); }
 .pub-figure.pub-figure-sm { max-width:330px; }
 .pub-figure.pub-figure-match { max-width:468px; }
+.pub-role { font-size:.6rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:#1e3a5f; margin:.15rem 0 .2rem; }
 </style>
 
 <div class="ri-head"><h2>Research Interests</h2></div>
@@ -94,6 +95,7 @@ author_profile: true
 <div class="pub-body">
 <p class="pub-title"><span class="pub-num">{{ pre }}{{ forloop.index }}</span>{{ p.title }}</p>
 <p class="pub-authors">{% for a in p.authors %}{% if a contains "Lee, J." %}<span class="me">{{ a }}</span>{% else %}{{ a }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% if p.note == "In Korean" %} (In Korean){% endif %}</p>
+{% if p.role %}<p class="pub-role">{{ p.role }}</p>{% endif %}
 {% if p.venue %}<p class="pub-venue">{{ p.venue }}{% if p.year %}, {{ p.year }}{% endif %}{% if p.note and p.note != "In Korean" %} <span class="pub-tag">({{ p.note }})</span>{% endif %}</p>{% elsif p.note and p.note != "In Korean" %}<p class="pub-venue"><span class="pub-tag" style="margin-left:0">({{ p.note }})</span></p>{% endif %}
 {% if p.links %}<div class="pub-links">{% for l in p.links %}<a href="{{ l.url }}" target="_blank" rel="noopener"><i class="fa-solid fa-file-lines" aria-hidden="true" style="margin-right:.35em"></i>{{ l.label }}</a>{% endfor %}</div>{% endif %}
 {% if p.image %}<div class="pub-figure{% if p.image_size == "small" %} pub-figure-sm{% elsif p.image_size == "match" %} pub-figure-match{% endif %}"><img src="{{ p.image | relative_url }}" alt="Research summary: {{ p.title | escape }}" data-lightbox="{{ p.image | relative_url }}"></div>{% endif %}
