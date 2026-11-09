@@ -5,6 +5,7 @@
 
 - type: journal
   title: "Gender differences in attitudes towards drug use among South Korean college students: A latent class analysis"
+  role: "Co-Researcher | Ewha Womans University"
   image: /images/pubs/drug-attitudes-lca.jpg
   authors: ["Lee, S.", "Chun, J.", "Lee, J."]
   venue: "Journal of Drug Issues"
@@ -17,6 +18,7 @@
 
 - type: journal
   title: "Game-based digital interventions for enhancing positive development and addressing substance use in adolescents: A systematic review"
+  role: "Co-Researcher | Ewha Womans University"
   image: /images/pubs/game-based-sr.jpg
   authors: ["Lee, S.", "Kim, J.", "Bockhold, S.", "Lee, J.", "Chun, J.", "Yu, M."]
   venue: "Children, 11(12), Article 1554"
@@ -29,6 +31,7 @@
 
 - type: journal
   title: "Effect of coping strategies for family conflict on social isolation of young adults: Focusing on mediated effect of self-esteem"
+  role: "Lead Researcher | Ewha Womans University"
   image: /images/pubs/family-conflict-isolation.jpg
   authors: ["Lee, J.", "Kim, J."]
   venue: "Social Work Practice & Research, 21(3), 123–151"
@@ -88,4 +91,16 @@
   role: "Co-Researcher | Seoul National University"
   authors: ["Kang, M.", "Ryu, H.", "Lee, J.", "Kim, S."]
   short: "In progress"
+  note: "In Korean"
+
+- type: project
+  title: "Development of a survey instrument on healthcare utilization among people with developmental disabilities"
+  role: "Research Associate | Seoul National University"
+
+- type: report
+  title: "Evaluation of social initiatives focused on the growth and independence of protected children in out-of-home care"
+  role: "Research Assistant | Ewha Womans University"
+  authors: ["Jang, J.", "Sun, M.", "Lee, S.", "Lee, J."]
+  venue: "Kyobo Life & ChildFund Korea"
+  year: "2025"
   note: "In Korean"
