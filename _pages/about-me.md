@@ -139,7 +139,7 @@ author_profile: true
 
 <p>Later, driven by a deep interest in trauma, I worked as a public social worker with young people who had attempted suicide and with those who had lost their family to suicide. My job involved long-term case management, connecting people with financial assistance, legal services, and peer support, and providing regular psychological counseling.</p>
 
-<p>Throughout this process, it’s always mattered to me to find ways research and policy can address the challenges I faced in practice. That’s what brought me to the Institute of Health and Environment at Seoul National University, where I am now committed to researching services, including health care, and related policies, with the aim of developing actionable recommendations.</p>
+<p>Throughout this process, it’s always mattered to me to find ways research and systemic change can address the challenges I faced in practice. That’s what brought me to the Institute of Health and Environment at Seoul National University, where I am now committed to researching services, including health care, and related policies, with the aim of developing actionable recommendations.</p>
 
 </section>
 <aside class="about-timeline" aria-label="Photos from my journey">
