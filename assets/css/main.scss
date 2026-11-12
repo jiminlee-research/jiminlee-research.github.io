@@ -99,10 +99,15 @@
   margin-bottom: 1.2rem;
 }
 
+.sidebar .author__content--centered .author__affiliation {
+  font-size: 0.65em;
+  white-space: nowrap;
+}
+
 .author__content--centered .author__pronouns {
   margin: -0.6rem 0 1.2rem;
   color: #6b7280;
-  font-size: 0.72em;
+  font-size: 0.62em;
   font-weight: 400;
   text-align: center;
 }
