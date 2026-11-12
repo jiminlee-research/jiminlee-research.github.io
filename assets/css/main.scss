@@ -215,3 +215,31 @@
 .page__footer-copyright {
   font-size: $type-size-8;
 }
+
+/* Below desktop width: stack photo, text and Follow button, all centered */
+@media (max-width: 924px) {
+  .sidebar .author__avatar,
+  .sidebar .author__content,
+  .sidebar .author__urls-wrapper {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .sidebar .author__avatar img {
+    max-width: 140px;
+  }
+
+  .sidebar .author__urls-wrapper {
+    margin-top: .4rem;
+  }
+
+  .sidebar .author__urls {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    text-align: left;
+  }
+}
