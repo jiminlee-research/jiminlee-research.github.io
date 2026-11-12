@@ -71,7 +71,7 @@
 }
 
 .author__content--centered .author__name {
-  margin: .9rem 0 .8rem;
+  margin: .9rem 0 .5rem;
   font-size: 1.25em;
   line-height: 1.3;
   white-space: normal;
@@ -79,7 +79,7 @@
 }
 
 .author__role {
-  margin: 0 0 1rem;
+  margin: 0 0 .5rem;
   color: #1683e8;
   font-family: "Roboto Condensed", "Arial Narrow", $sans-serif;
   font-size: 1.12em;
@@ -98,7 +98,7 @@
 }
 
 .author__affiliation--last {
-  margin-bottom: 1.2rem;
+  margin-bottom: .5rem;
 }
 
 .sidebar .author__content--centered .author__affiliation {
@@ -111,7 +111,7 @@
 }
 
 .author__content--centered .author__pronouns {
-  margin: -0.6rem 0 1.2rem;
+  margin: 0 0 .5rem;
   color: #6b7280;
   font-size: 0.64em;
   font-weight: 400;
