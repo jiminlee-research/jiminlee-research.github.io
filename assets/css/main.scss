@@ -111,7 +111,7 @@
 .author__content--centered .author__pronouns {
   margin: -0.6rem 0 1.2rem;
   color: #6b7280;
-  font-size: 0.6em;
+  font-size: 0.64em;
   font-weight: 400;
   text-align: center;
 }
@@ -192,9 +192,4 @@
 /* Email and profile links: slightly smaller, in line with the affiliation */
 .sidebar .author__urls li {
   font-size: 0.68em;
-}
-
-/* "Email:" label without bold */
-.sidebar .author__email strong {
-  font-weight: 400;
 }
