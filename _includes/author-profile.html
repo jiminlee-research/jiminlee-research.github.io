@@ -17,10 +17,6 @@
 <div class="author__content author__content--centered">
   <h3 class="author__name">{{ author.name }}</h3>
 
-  {% if author.pronouns %}
-    <p class="author__pronouns">{{ author.pronouns }}</p>
-  {% endif %}
-
   {% if author.bio %}
     <p class="author__role">{{ author.bio }}</p>
   {% endif %}
@@ -32,6 +28,10 @@
 {% if author.location %}
   <p class="author__affiliation author__affiliation--last">{{ author.location }}</p>
 {% endif %}
+
+  {% if author.pronouns %}
+    <p class="author__pronouns">{{ author.pronouns }}</p>
+  {% endif %}
   
 </div>
 
