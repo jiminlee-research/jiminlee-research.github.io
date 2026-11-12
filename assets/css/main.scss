@@ -89,7 +89,7 @@
   display: block;
   width: 100%;
   margin: 0;
-  color: #5f6368;
+  color: inherit;
   font-size: .9em;
   line-height: 1.5;
   text-align: center;
@@ -97,6 +97,13 @@
 
 .author__affiliation--last {
   margin-bottom: 1.2rem;
+}
+
+.author__content--centered .author__pronouns {
+  margin: 0 0 1.2rem;
+  font-size: .9em;
+  font-style: italic;
+  text-align: center;
 }
 
 .author__email {
