@@ -179,3 +179,15 @@
 .about-page .about-hero + .about-layout .about-section > h2:first-child { margin-top: 0 !important; }
 .archive .ri-head { margin-top: 3.65rem !important; }
 .archive .cv-wrap > .cv-h:first-child { margin-top: 3.65rem !important; }
+
+/* Center the profile photo */
+.sidebar .author__avatar img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Email and profile links: slightly smaller, in line with the affiliation */
+.sidebar .author__urls li {
+  font-size: 0.68em;
+}
