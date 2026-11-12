@@ -193,3 +193,8 @@
 .sidebar .author__urls li {
   font-size: 0.68em;
 }
+
+/* "Email:" label without bold */
+.sidebar .author__email strong {
+  font-weight: 400;
+}
