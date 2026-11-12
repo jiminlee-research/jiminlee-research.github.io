@@ -81,7 +81,8 @@
 .author__role {
   margin: 0 0 1rem;
   color: #1683e8;
-  font-size: 1.05em;
+  font-family: "Roboto Condensed", "Arial Narrow", $sans-serif;
+  font-size: 1.12em;
   font-weight: 700;
   line-height: 1.4;
 }
@@ -101,7 +102,8 @@
 }
 
 .sidebar .author__content--centered .author__affiliation {
-  font-size: 0.63em;
+  font-family: "Roboto Condensed", "Arial Narrow", $sans-serif;
+  font-size: 0.72em;
   white-space: normal;
   text-wrap: balance;
 }
