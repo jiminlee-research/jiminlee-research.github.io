@@ -195,3 +195,23 @@
 .sidebar .author__urls li {
   font-size: 0.68em;
 }
+
+/* Compact footer */
+.page__footer {
+  margin-top: 2em;
+}
+
+.page__footer footer {
+  margin-top: .5em;
+  padding-bottom: .5em;
+}
+
+.page__footer-follow li {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: $type-size-7;
+}
+
+.page__footer-copyright {
+  font-size: $type-size-8;
+}
