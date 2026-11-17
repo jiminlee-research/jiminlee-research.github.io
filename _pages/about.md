@@ -68,6 +68,6 @@ Please don't hesitate to get in touch if you'd like to talk about my work.
 </div>
 <div class="education-entry">
 <h3>University of Missouri–Columbia <span>(2017–2019)</span></h3>
-<p>Completed coursework through the second year in Human Development and Family Science</p>
+<p>Completed two years of undergraduate coursework in Human Development and Family Science (transferred to Ewha Womans University)</p>
 </div>
 </div>
